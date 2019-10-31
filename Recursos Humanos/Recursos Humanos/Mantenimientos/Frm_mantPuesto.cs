@@ -31,7 +31,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarColorFuente(Color.BlueViolet);
             navegador1.asignarAyuda("1");
             navegador1.asignarTabla("tbl_puestos");
-          navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 0);
+          navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
             navegador1.asignarNombreForm("Puestos");
             scampo = lo.siguiente("tbl_puestos", "KidPuesto");
             Txt_Sig.Text = scampo;

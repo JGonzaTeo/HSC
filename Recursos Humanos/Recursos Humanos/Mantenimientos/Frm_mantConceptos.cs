@@ -32,10 +32,10 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarAyuda("1");
             navegador1.asignarTabla("tbl_conceptos");
             navegador1.asignarNombreForm("Conceptos");
-            ayuda_tp.IsBalloon = true;
             scampo = lo.siguiente("tbl_conceptos", "KidConcepto");
             Txt_Sig.Text = scampo;
             Txt_Sig.Enabled = false;
+            ayuda_tp.IsBalloon = true;
         }
 
         private void Frm_mantConceptos_Load(object sender, EventArgs e)
