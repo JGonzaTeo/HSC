@@ -9,8 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDeDiseno;
-
-
+using CapaLogica_RRHH;
 
 namespace Recursos_Humanos.Mantenimientos
 {
@@ -20,6 +19,9 @@ namespace Recursos_Humanos.Mantenimientos
 
         ToolTip ayuda_tp = new ToolTip();
         string ususario;
+        Logica lo = new Logica();
+        string scampo;
+
         public Frm_mantEmpleado(string user)
         {
             InitializeComponent();
@@ -32,10 +34,14 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarColorFuente(Color.BlueViolet);
             navegador1.asignarAyuda("1");
             navegador1.asignarTabla("tbl_empleado");
-            navegador1.asignarComboConTabla("tbl_puestos", "KidPuesto");
-            navegador1.asignarComboConTabla("tbl_departamentos", "KidDepartamento");
+            navegador1.asignarComboConTabla("tbl_puestos", "nombre", 1);
+            navegador1.asignarComboConTabla("tbl_departamentos", "nombre", 1);
             navegador1.asignarNombreForm("Empleado");
             ayuda_tp.IsBalloon = true;
+            scampo = lo.siguiente("tbl_empleado", "KidEmpleado");
+            Txt_Sig.Text = scampo;
+            Txt_Sig.Enabled = false;
+         
         }
 
         private void Frm_mantEmpleado_Load(object sender, EventArgs e)
@@ -44,6 +50,14 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.ObtenerIdUsuario(ususario);
             navegador1.botonesYPermisosInicial(ususario, aplicacionActiva);
             navegador1.ObtenerIdAplicacion(aplicacionActiva);
+           scampo = lo.siguiente("tbl_empleado", "KidEmpleado");
+            Txt_Sig.Text = scampo;
+        }
+
+        private void Navegador1_MouseHover(object sender, EventArgs e)
+        {
+            scampo = lo.siguiente("tbl_empleado", "KidEmpleado");
+            Txt_Sig.Text = scampo;
         }
     }
 }

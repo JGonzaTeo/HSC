@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDeDiseno;
 using CapaDiseno;
+using CapaLogica_RRHH;
 
 namespace Recursos_Humanos.Mantenimientos
 {
@@ -16,6 +17,9 @@ namespace Recursos_Humanos.Mantenimientos
     {
         ToolTip ayuda_tp = new ToolTip();
         string ususario;
+        Logica lo = new Logica();
+        string scampo;
+
         public Frm_mantRolespago(string user)
         {
             InitializeComponent();
@@ -28,6 +32,9 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarAyuda("1");
             navegador1.asignarTabla("tbl_roles_de_pago");
             navegador1.asignarNombreForm("Roles de pago");
+            scampo = lo.siguiente("tbl_roles_de_pago", "KidRolpago");
+            Txt_Sig.Text = scampo;
+            Txt_Sig.Enabled = false;
             ayuda_tp.IsBalloon = true;
         }
 
@@ -38,6 +45,14 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.ObtenerIdUsuario(ususario);
             navegador1.botonesYPermisosInicial(ususario, aplicacionActiva);
             navegador1.ObtenerIdAplicacion(aplicacionActiva);
+            scampo = lo.siguiente("tbl_roles_de_pago", "KidRolpago");
+            Txt_Sig.Text = scampo;
+        }
+
+        private void Navegador1_MouseHover(object sender, EventArgs e)
+        {
+            scampo = lo.siguiente("tbl_roles_de_pago", "KidRolpago");
+            Txt_Sig.Text = scampo;
         }
     }
 }

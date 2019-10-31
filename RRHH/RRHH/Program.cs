@@ -17,7 +17,7 @@ namespace RRHH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDI_RRHH());
+             Application.Run(new MDI_RRHH());
         }
     }
 }

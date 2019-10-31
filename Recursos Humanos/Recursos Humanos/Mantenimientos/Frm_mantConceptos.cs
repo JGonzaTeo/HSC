@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaDeDiseno;
 using CapaDiseno;
-
+using CapaLogica_RRHH;
 
 namespace Recursos_Humanos.Mantenimientos
 {
@@ -18,6 +18,8 @@ namespace Recursos_Humanos.Mantenimientos
 
         ToolTip ayuda_tp = new ToolTip();
         string sususario;
+        Logica lo = new Logica();
+        string scampo;
         public Frm_mantConceptos(string user)
         {
             InitializeComponent();
@@ -31,6 +33,9 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarTabla("tbl_conceptos");
             navegador1.asignarNombreForm("Conceptos");
             ayuda_tp.IsBalloon = true;
+            scampo = lo.siguiente("tbl_conceptos", "KidConcepto");
+            Txt_Sig.Text = scampo;
+            Txt_Sig.Enabled = false;
         }
 
         private void Frm_mantConceptos_Load(object sender, EventArgs e)
@@ -39,6 +44,14 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.ObtenerIdUsuario(sususario);
             navegador1.botonesYPermisosInicial(sususario, aplicacionActiva);
             navegador1.ObtenerIdAplicacion(aplicacionActiva);
+            scampo = lo.siguiente("tbl_conceptos", "KidConcepto");
+            Txt_Sig.Text = scampo;
+        }
+
+        private void Navegador1_MouseHover(object sender, EventArgs e)
+        {
+            scampo = lo.siguiente("tbl_conceptos", "KidConcepto");
+            Txt_Sig.Text = scampo;
         }
     }
 }
