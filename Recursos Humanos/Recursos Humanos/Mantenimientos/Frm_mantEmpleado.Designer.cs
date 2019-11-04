@@ -71,6 +71,7 @@
             this.Controls.Add(this.Txt_Sig);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_mantEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_mantEmpleado";

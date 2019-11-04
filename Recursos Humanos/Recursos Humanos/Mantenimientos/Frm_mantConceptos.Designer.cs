@@ -71,7 +71,9 @@
             this.Controls.Add(this.Txt_Sig);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_mantConceptos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_mantConceptos";
             this.Load += new System.EventHandler(this.Frm_mantConceptos_Load);
             this.ResumeLayout(false);

@@ -70,12 +70,12 @@ namespace Recursos_Humanos
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+           // toolStrip.Visible = toolBarToolStripMenuItem.Checked;
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
+         //   statusStrip.Visible = statusBarToolStripMenuItem.Checked;
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -319,6 +319,58 @@ namespace Recursos_Humanos
             {
                 Area.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
+        }
+
+        private void NominasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaNomina = false;
+            Frm_nominas nomina = new Frm_nominas();
+             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_nominas);
+                if (ventanaNomina == false || frmC == null)
+                {
+                    if (frmC == null)
+                    {
+                        nomina = new Frm_nominas();
+                    }
+
+                    nomina.MdiParent = this;
+                    nomina.Show();
+                    Application.DoEvents();
+                    ventanaNomina = true;
+                }
+                else
+                {
+                    nomina.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                }
+            }
+
+        private void CapacitacionesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            bool ventanaCapacitacion = false;
+            Frm_capacitaciones capacitacion = new Frm_capacitaciones();
+           
+                Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_capacitaciones);
+                if (ventanaCapacitacion == false || frmC == null)
+                {
+                    if (frmC == null)
+                    {
+                        capacitacion = new Frm_capacitaciones();
+                    }
+
+                    capacitacion.MdiParent = this;
+                    capacitacion.Show();
+                    Application.DoEvents();
+                    ventanaCapacitacion = true;
+                }
+                else
+                {
+                    capacitacion.WindowState = System.Windows.Forms.FormWindowState.Normal;
+                }
+            }
+
+        private void ProcesosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -32,12 +32,12 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarColorFuente(Color.BlueViolet);
             navegador1.asignarAyuda("1");
             navegador1.asignarTabla("tbl_departamentos");
-            navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 0);
+            navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
             navegador1.asignarNombreForm("Departamentos");
-            ayuda_tp.IsBalloon = true;
             scampo = lo.siguiente("tbl_departamentos", "KidDepartamento");
             Txt_Sig.Text = scampo;
             Txt_Sig.Enabled = false;
+            ayuda_tp.IsBalloon = true;
 
         }
 
