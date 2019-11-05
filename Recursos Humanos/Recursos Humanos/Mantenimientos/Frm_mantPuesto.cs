@@ -29,7 +29,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("1");
+            navegador1.asignarAyuda("15");
             navegador1.asignarTabla("tbl_puestos");
           navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
             navegador1.asignarNombreForm("Puestos");
@@ -53,6 +53,11 @@ namespace Recursos_Humanos.Mantenimientos
         {
             scampo = lo.siguiente("tbl_puestos", "KidPuesto");
             Txt_Sig.Text = scampo;
+        }
+
+        private void Navegador1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
