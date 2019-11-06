@@ -372,5 +372,28 @@ namespace Recursos_Humanos
         {
 
         }
+
+        bool ventanaResultado = false;
+        Frm_ResultadoBT resultado = new Frm_ResultadoBT("");
+        private void ResultadosBIToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ResultadoBT);
+            if (ventanaResultado == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    resultado = new Frm_ResultadoBT(sUsuario);
+                }
+
+                resultado.MdiParent = this;
+                resultado.Show();
+                Application.DoEvents();
+                ventanaResultado = true;
+            }
+            else
+            {
+                resultado.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

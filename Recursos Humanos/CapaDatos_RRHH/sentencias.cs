@@ -10,7 +10,7 @@ namespace CapaDatos_RRHH
    public class sentencias
     {
         Conexion cn = new Conexion();
-       
+        OdbcCommand comm;
         public string obtenerfinal(string tabla,string campo)// metodo  que obtinene el contenio de una tabla
         {
           
@@ -43,6 +43,46 @@ namespace CapaDatos_RRHH
 
         }
 
+        // ****INICIO DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
+        public OdbcDataReader ConsultaResultadoBanco(string cod)
+        {
+            try
+            {
+                cn.probarConexion();
+                //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "SELECT nombre_candidato,apellido_candidato,correoelectronico FROM tbl_bancotalento where KidBancoTalento = " + cod + ";";
+                comm = new OdbcCommand(consultaResultados, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
 
+        }
+
+        public OdbcDataAdapter ConsultaGrafica(string cod)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGra = "Select p.nombre, r.Resultado From tbl_pruebas p inner join tbl_resultados r on p.KidPruebas = r.KidPruebas inner join tbl_bancotalento on r.KidBancoTalento = " + cod + ";";
+                ;
+                OdbcDataAdapter dataGrafica = new OdbcDataAdapter(consultaGra, cn.probarConexion());
+                return dataGrafica;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+            //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+        }
+        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
     }
+
+
 }
+
