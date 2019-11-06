@@ -12,7 +12,7 @@ namespace CapaDatos_RRHH
 
         public OdbcConnection probarConexion()
         {
-            OdbcConnection conn = new OdbcConnection("Dsn=navegador");// creacion de la conexion via ODBC
+            OdbcConnection conn = new OdbcConnection("Dsn=HSC");// creacion de la conexion via ODBC
             try
             {
                 conn.Open();
