@@ -375,7 +375,8 @@ namespace Recursos_Humanos
 
         bool ventanaResultado = false;
         Frm_ResultadoBT resultado = new Frm_ResultadoBT("");
-        private void ResultadosBIToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void ResultadosBTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ResultadoBT);
             if (ventanaResultado == false || frmC == null)
