@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Lbl_titulo = new System.Windows.Forms.Label();
             this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Btn_salir = new System.Windows.Forms.Button();
+            this.Lbl_titulo = new System.Windows.Forms.Label();
             this.btn_guardar = new System.Windows.Forms.Button();
             this.dgv_Banco = new System.Windows.Forms.DataGridView();
             this.Nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -61,17 +61,6 @@
             this.panel1.Size = new System.Drawing.Size(938, 52);
             this.panel1.TabIndex = 7;
             // 
-            // Lbl_titulo
-            // 
-            this.Lbl_titulo.AutoSize = true;
-            this.Lbl_titulo.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_titulo.Location = new System.Drawing.Point(13, 20);
-            this.Lbl_titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_titulo.Name = "Lbl_titulo";
-            this.Lbl_titulo.Size = new System.Drawing.Size(245, 23);
-            this.Lbl_titulo.TabIndex = 1;
-            this.Lbl_titulo.Text = "Resultados Banco Talento";
-            // 
             // Btn_minimizar
             // 
             this.Btn_minimizar.FlatAppearance.BorderSize = 0;
@@ -82,6 +71,7 @@
             this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
             this.Btn_minimizar.TabIndex = 1;
             this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
             // 
             // Btn_salir
             // 
@@ -93,6 +83,18 @@
             this.Btn_salir.Size = new System.Drawing.Size(40, 40);
             this.Btn_salir.TabIndex = 2;
             this.Btn_salir.UseVisualStyleBackColor = true;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            // 
+            // Lbl_titulo
+            // 
+            this.Lbl_titulo.AutoSize = true;
+            this.Lbl_titulo.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_titulo.Location = new System.Drawing.Point(13, 20);
+            this.Lbl_titulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_titulo.Name = "Lbl_titulo";
+            this.Lbl_titulo.Size = new System.Drawing.Size(245, 23);
+            this.Lbl_titulo.TabIndex = 1;
+            this.Lbl_titulo.Text = "Resultados Banco Talento";
             // 
             // btn_guardar
             // 
@@ -151,6 +153,7 @@
             this.txt_cod.Name = "txt_cod";
             this.txt_cod.Size = new System.Drawing.Size(170, 23);
             this.txt_cod.TabIndex = 11;
+            this.txt_cod.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Txt_cod_KeyUp);
             // 
             // btn_buscar
             // 
@@ -165,10 +168,10 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea5.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart1.Legends.Add(legend5);
             this.chart1.Location = new System.Drawing.Point(191, 95);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
@@ -190,7 +193,9 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_ResultadoBT";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_ResultadoBT";
+            this.Load += new System.EventHandler(this.Frm_ResultadoBT_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Banco)).EndInit();

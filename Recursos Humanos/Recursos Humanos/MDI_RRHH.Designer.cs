@@ -48,7 +48,7 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.resultadosBIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resultadosBTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -62,8 +62,7 @@
             this.procesosToolStripMenuItem,
             this.reportesToolStripMenuItem,
             this.herramientasToolStripMenuItem,
-            this.ayudaToolStripMenuItem,
-            this.resultadosBIToolStripMenuItem});
+            this.ayudaToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
@@ -144,7 +143,8 @@
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nominasToolStripMenuItem,
-            this.capacitacionesToolStripMenuItem1});
+            this.capacitacionesToolStripMenuItem1,
+            this.resultadosBTToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.procesosToolStripMenuItem.Text = "Procesos";
@@ -153,14 +153,14 @@
             // nominasToolStripMenuItem
             // 
             this.nominasToolStripMenuItem.Name = "nominasToolStripMenuItem";
-            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nominasToolStripMenuItem.Text = "Nominas";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.NominasToolStripMenuItem_Click);
             // 
             // capacitacionesToolStripMenuItem1
             // 
             this.capacitacionesToolStripMenuItem1.Name = "capacitacionesToolStripMenuItem1";
-            this.capacitacionesToolStripMenuItem1.Size = new System.Drawing.Size(154, 22);
+            this.capacitacionesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.capacitacionesToolStripMenuItem1.Text = "Capacitaciones";
             this.capacitacionesToolStripMenuItem1.Click += new System.EventHandler(this.CapacitacionesToolStripMenuItem1_Click);
             // 
@@ -199,12 +199,12 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(42, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // resultadosBIToolStripMenuItem
+            // resultadosBTToolStripMenuItem
             // 
-            this.resultadosBIToolStripMenuItem.Name = "resultadosBIToolStripMenuItem";
-            this.resultadosBIToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
-            this.resultadosBIToolStripMenuItem.Text = "Resultados BI";
-            this.resultadosBIToolStripMenuItem.Click += new System.EventHandler(this.ResultadosBIToolStripMenuItem_Click);
+            this.resultadosBTToolStripMenuItem.Name = "resultadosBTToolStripMenuItem";
+            this.resultadosBTToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.resultadosBTToolStripMenuItem.Text = "Resultados BT";
+            this.resultadosBTToolStripMenuItem.Click += new System.EventHandler(this.ResultadosBTToolStripMenuItem_Click);
             // 
             // MDI_RRHH
             // 
@@ -250,7 +250,7 @@
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nominasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem capacitacionesToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem resultadosBIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resultadosBTToolStripMenuItem;
     }
 }
 
