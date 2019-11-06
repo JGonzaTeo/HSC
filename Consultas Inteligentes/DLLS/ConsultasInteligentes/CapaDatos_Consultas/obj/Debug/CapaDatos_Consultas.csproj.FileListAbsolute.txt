@@ -1,0 +1,6 @@
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\obj\Debug\CapaDatos_Consultas.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\obj\Debug\CapaDatos_Consultas.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\obj\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Consultas Inteligentes\DLLS\ConsultasInteligentes\CapaDatos_Consultas\obj\Debug\CapaDatos_Consultas.pdb
