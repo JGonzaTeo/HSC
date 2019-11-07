@@ -211,3 +211,5 @@ C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Human
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ControlAsistencias.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_DesempeñoEmpleado.resources

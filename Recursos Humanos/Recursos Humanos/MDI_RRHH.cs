@@ -423,5 +423,30 @@ namespace Recursos_Humanos
                 desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        
+        private void ControlDeAsistenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_ControlAsistencias desempeño = new Frm_ControlAsistencias("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ControlAsistencias);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_ControlAsistencias(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

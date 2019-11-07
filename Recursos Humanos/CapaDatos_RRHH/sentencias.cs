@@ -117,6 +117,38 @@ namespace CapaDatos_RRHH
 
         }
 
+        public OdbcDataAdapter ConsultaGraficaAsistencias(string nom)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraDesem = "select count(PK_id_usuario), month(fecha) from tbl_bitacora where PK_id_usuario like '"+ nom + "' and accion like 'Se logeo al sistema' group by month(fecha);";
+                OdbcDataAdapter dataGrafica = new OdbcDataAdapter(consultaGraDesem, cn.probarConexion());
+                return dataGrafica;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        public OdbcDataReader ConsultaGraficaAsistencias2(string nom)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraAsis = "select count(PK_id_usuario), MONTHNAME(fecha) from tbl_bitacora where PK_id_usuario like '" + nom + "' and accion like 'Se logeo al sistema' group by month(fecha);";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
         //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
 
 
