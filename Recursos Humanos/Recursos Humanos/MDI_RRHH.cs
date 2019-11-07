@@ -395,5 +395,28 @@ namespace Recursos_Humanos
                 resultado.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        bool ventanaPolizaNomina = false;
+        Frm_Poliza_Nomina polizaNomina = new Frm_Poliza_Nomina("");
+        private void PolizasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Poliza_Nomina);
+            if (ventanaPolizaNomina == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    polizaNomina = new Frm_Poliza_Nomina(sUsuario);
+                }
+
+                polizaNomina.MdiParent = this;
+                polizaNomina.Show();
+                Application.DoEvents();
+                ventanaPolizaNomina = true;
+            }
+            else
+            {
+                polizaNomina.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

@@ -113,9 +113,39 @@ namespace Recursos_Humanos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_transferencia_de_dinero_35 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-transferencia-de-dinero-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_transferencia_de_dinero_45 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-transferencia-de-dinero-45", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap nomina_35 {
             get {
                 object obj = ResourceManager.GetObject("nomina-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nomina_351 {
+            get {
+                object obj = ResourceManager.GetObject("nomina-351", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

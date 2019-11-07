@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.Lbl_titulo = new System.Windows.Forms.Label();
-            this.Btn_consultaNomina = new System.Windows.Forms.Button();
             this.Grpbx_encabezadoNomina = new System.Windows.Forms.GroupBox();
             this.Cmbx_tipoPoliza = new System.Windows.Forms.ComboBox();
             this.Txt_idNomina = new System.Windows.Forms.TextBox();
@@ -52,6 +51,7 @@
             this.Lbl_descripcion = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Btn_aceptar = new System.Windows.Forms.Button();
+            this.Btn_consultaNomina = new System.Windows.Forms.Button();
             this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Btn_salir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -82,18 +82,6 @@
             this.Lbl_titulo.Size = new System.Drawing.Size(93, 28);
             this.Lbl_titulo.TabIndex = 1;
             this.Lbl_titulo.Text = "POLIZA";
-            // 
-            // Btn_consultaNomina
-            // 
-            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
-            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.nomina_35;
-            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
-            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
-            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
-            this.Btn_consultaNomina.TabIndex = 1;
-            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
-            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
             // 
             // Grpbx_encabezadoNomina
             // 
@@ -291,6 +279,18 @@
             this.Btn_aceptar.Size = new System.Drawing.Size(40, 40);
             this.Btn_aceptar.TabIndex = 10;
             this.Btn_aceptar.UseVisualStyleBackColor = true;
+            // 
+            // Btn_consultaNomina
+            // 
+            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
+            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.icons8_transferencia_de_dinero_45;
+            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
+            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
+            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
+            this.Btn_consultaNomina.TabIndex = 1;
+            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
+            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
             // 
             // Btn_minimizar
             // 

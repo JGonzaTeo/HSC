@@ -212,6 +212,9 @@
   <ItemGroup>
     <Content Include="Resources\aprobar-35.png" />
     <Content Include="Resources\icons8-búsqueda-35.png" />
+    <None Include="Resources\nomina-351.png" />
+    <None Include="Resources\icons8-transferencia-de-dinero-35.png" />
+    <None Include="Resources\icons8-transferencia-de-dinero-45.png" />
     <Content Include="Resources\nomina-35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
