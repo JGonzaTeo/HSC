@@ -80,7 +80,76 @@ namespace CapaDatos_RRHH
             }
             //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
         }
-        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+        Conexion cnx = new Conexion();
+
+        //   ***SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+        public OdbcDataReader ConsultaNomina(string dias)
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaNominas = "SELECT KidNomina, KidEmpleado, fecha, sueldoliquido FROM tbl_nominasencabezado WHERE fecha BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
+                comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
+                OdbcDataReader mostrarNominas = comm.ExecuteReader();
+                return mostrarNominas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaCuentaFiltro(string nombreCuenta)
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaCuentas = "SELECT * FROM tbl_cuentas WHERE nombre LIKE ('%" + nombreCuenta + "%') AND estado = 1;";
+                comm = new OdbcCommand(consultaCuentas, cnx.probarConexion());
+                OdbcDataReader mostrarCuentas = comm.ExecuteReader();
+                return mostrarCuentas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaCuenta()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaCuentas = "SELECT * FROM tbl_cuentas WHERE estado = 1;";
+                comm = new OdbcCommand(consultaCuentas, cnx.probarConexion());
+                OdbcDataReader mostrarCuentas = comm.ExecuteReader();
+                return mostrarCuentas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataAdapter ConsultaTipoPoliza()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaTipoPolizas = "SELECT KidTipoDePoliza FROM tbl_tipo_poliza WHERE estado = 1";
+                OdbcDataAdapter dataTipoPoliza = new OdbcDataAdapter(consultaTipoPolizas, cnx.probarConexion());
+                return dataTipoPoliza;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+            //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+        }
     }
 
 

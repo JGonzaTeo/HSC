@@ -63,6 +63,36 @@ namespace Recursos_Humanos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aprobar_35 {
+            get {
+                object obj = ResourceManager.GetObject("aprobar-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_búsqueda_35 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-búsqueda-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_búsqueda_351 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-búsqueda-351", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_cerrar_ventana_35 {
             get {
                 object obj = ResourceManager.GetObject("icons8-cerrar-ventana-35", resourceCulture);
@@ -76,6 +106,16 @@ namespace Recursos_Humanos.Properties {
         internal static System.Drawing.Bitmap icons8_minimizar_la_ventana_35 {
             get {
                 object obj = ResourceManager.GetObject("icons8-minimizar-la-ventana-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nomina_35 {
+            get {
+                object obj = ResourceManager.GetObject("nomina-35", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -16,3 +16,9 @@ C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\Ca
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb

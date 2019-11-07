@@ -55,6 +55,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Consultas\Frm_consultaCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaCuentas.designer.cs">
+      <DependentUpon>Frm_consultaCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMostrarCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMostrarCuenta.designer.cs">
+      <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaNomina.designer.cs">
+      <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_capacitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +84,12 @@
     </Compile>
     <Compile Include="Frm_nominas.Designer.cs">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Poliza_Nomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Poliza_Nomina.designer.cs">
+      <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ResultadoBT.cs">
       <SubType>Form</SubType>
@@ -129,11 +153,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Consultas\Frm_consultaCuentas.resx">
+      <DependentUpon>Frm_consultaCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaMostrarCuenta.resx">
+      <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaNomina.resx">
+      <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_capacitaciones.resx">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_nominas.resx">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Poliza_Nomina.resx">
+      <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ResultadoBT.resx">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
@@ -172,6 +208,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-cerrar-ventana-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\aprobar-35.png" />
+    <Content Include="Resources\icons8-búsqueda-35.png" />
+    <Content Include="Resources\nomina-35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

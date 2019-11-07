@@ -36,5 +36,31 @@ namespace CapaLogica_RRHH
             dtaGrafica.Fill(grafica);
             return grafica;
         }
+
+        //   ***LOGICA PARA EL ÁREA DE PÓLIZAS***
+        public OdbcDataReader ConsultaLogicaNominas(string dias)
+        {
+            return sn.ConsultaNomina(dias);
+        }
+
+        public OdbcDataReader ConsultaLogicaCuentasFiltro(string nombreCuenta)
+        {
+            return sn.ConsultaCuentaFiltro(nombreCuenta);
+        }
+
+        public OdbcDataReader ConsultaLogicaCuentas()
+        {
+            return sn.ConsultaCuenta();
+        }
+
+        public DataTable ConsultaLogicaTipoPoliza()
+        {
+            OdbcDataAdapter dtaTipoPoliza = sn.ConsultaTipoPoliza();
+            DataTable tableTipoPoliza = new DataTable();
+            dtaTipoPoliza.Fill(tableTipoPoliza);
+            return tableTipoPoliza;
+        }
+
+        //   ***FIN DE LOGICA PARA EL ÁREA DE PÓLIZAS***
     }
 }
