@@ -78,10 +78,55 @@ namespace CapaDatos_RRHH
                 Console.WriteLine(err.Message);
                 return null;
             }
-            //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+            
         }
-        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+
+        public OdbcDataReader ConsultaDesempeñoEmpleado(string cod)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaDesempeño = "Select nombres,apellidos,telefono,correo from tbl_empleado where KidEmpleado = " + cod + ";";
+                comm = new OdbcCommand(consultaDesempeño, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataAdapter ConsultaGraficaDesempeño(string cod)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraDesem = "Select p.nombre, d.Resultado From tbl_pruebas p inner join tbl_desempeñoempleado d on p.KidPruebas = d.KidPruebas inner join tbl_empleado on d.KidEmpleado = " + cod + ";";
+                ;
+                OdbcDataAdapter dataGrafica = new OdbcDataAdapter(consultaGraDesem, cn.probarConexion());
+                return dataGrafica;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
+
+
+
+
+
     }
+
+
+
 
 
 }
