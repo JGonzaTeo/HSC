@@ -1,0 +1,129 @@
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe.config
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\pruebaDll.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csprojAssemblyReference.cache
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Properties.Resources.resources
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.GenerateResource.cache
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CoreCompileInputs.cache
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.exe
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDatos.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDiseno.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaLogica.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CopyComplete
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_mdi.resources
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe.config
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\pruebaDll.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDatos.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDiseno.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaLogica.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csprojAssemblyReference.cache
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_bodega.resources
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_mdi.resources
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_producto.resources
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Properties.Resources.resources
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.GenerateResource.cache
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CoreCompileInputs.cache
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CopyComplete
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.exe
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\obj\Debug\pruebaDll.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.dll
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.dll
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.dll
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.pdb
+C:\Users\gganp\Desktop\CAPACITACION NAVEGADOR\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.dll
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.dll
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.dll
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.pdb
+C:\Users\gganp\Desktop\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe.config
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\pruebaDll.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDatos.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDiseno.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaLogica.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frmbodega.resources
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_mdi.resources
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Properties.Resources.resources
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CopyComplete
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.exe
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Proovedor.resources
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\diego\Desktop\CAPACITACION NAV\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Consultas.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe.config
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDiseno.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Consultas.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frmbodega.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_mdi.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Proovedor.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Properties.Resources.resources
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.GenerateResource.cache
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CopyComplete
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.exe
+C:\Users\diego\Desktop\Capacitacion Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe.config
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.exe
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\pruebaDll.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDiseno.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Consultas.resources
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frmbodega.resources
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.frm_mdi.resources
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Proovedor.resources
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.Properties.Resources.resources
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.csproj.CopyComplete
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.exe
+C:\Users\prueb\Desktop\Consultas Inteligentes\pruebaDll\pruebaDll\obj\Debug\pruebaDll.pdb

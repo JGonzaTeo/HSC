@@ -1,0 +1,6 @@
+1. CARGAR EL SCRIPT "bdnavegador" en una nueva BD
+2. CREAR UN ODBC con el nombre "navegador" para la base creada
+3. CARGAR EL SCRIPT "seguridad" en una nueva BD
+4. CREAR UN ODBC con el nombre "seguridad" para la base creada
+5. CARGAR EL SCRIPT "market" en una BD llamada "market"
+5. CREAR UN ODBC con el nombre "comp" para la base creada

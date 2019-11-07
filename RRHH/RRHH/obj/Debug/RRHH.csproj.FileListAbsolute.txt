@@ -1,0 +1,178 @@
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Navegador Actual\RRHH DE PRODUCCION\Modulo-RHHH-master\Modulo RRHH\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\RRHH\RRHH\obj\Debug\RRHH.pdb
