@@ -19,6 +19,8 @@ namespace Recursos_Humanos
         ToolTip ayuda_tp = new ToolTip();
         Logica logic = new Logica();
         public static int contador_fila = 0;
+        public static double totalDebe = 0;
+        public static double totalHaber = 0;
         public Frm_Poliza_Nomina(string usuario)
         {
             InitializeComponent();
@@ -64,12 +66,13 @@ namespace Recursos_Humanos
                 }
                 else
                 {
+                    string prueba = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString();
                     Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); //prueba
                     /*
                     foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
                     {
                         Console.WriteLine(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString()); //prueba
-                        if(Fila.Cells[0].Value.ToString() == Lbl_codigoCuenta.Text)
+                        if(Fila.Cells[0].Value.ToString() == prueba)
                         {
                             existe = true;
                             num_fila = Fila.Index;
@@ -89,7 +92,16 @@ namespace Recursos_Humanos
                         contador_fila++;
                     }
                 }
-                
+
+                totalDebe = 0;
+                totalHaber = 0;
+                foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
+                {
+                    totalDebe += Convert.ToDouble(Fila.Cells[2].Value);
+                    totalHaber += Convert.ToDouble(Fila.Cells[3].Value);
+                }
+                Txt_sumaDebe.Text = totalDebe.ToString();
+                Txt_sumaHaber.Text = totalHaber.ToString();
             }
         }
 
@@ -114,5 +126,23 @@ namespace Recursos_Humanos
             }
         }
 
+        private void Btn_eliminarCuenta_Click(object sender, EventArgs e)
+        {
+            if(contador_fila > 0)
+            {
+                totalDebe = totalDebe - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[2].Value));
+                totalHaber = totalHaber - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[3].Value));
+                Txt_sumaDebe.Text = totalDebe.ToString();
+                Txt_sumaHaber.Text = totalHaber.ToString();
+
+                Dgv_detallePoliza.Rows.RemoveAt(Dgv_detallePoliza.CurrentRow.Index);
+
+                contador_fila--;
+            }
+            else
+            {
+                MessageBox.Show("No se han agregado cuentas contables.");
+            }
+        }
     }
 }

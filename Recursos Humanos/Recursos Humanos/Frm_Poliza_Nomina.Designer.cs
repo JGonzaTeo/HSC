@@ -36,6 +36,7 @@
             this.Cmbx_tipoPoliza = new System.Windows.Forms.ComboBox();
             this.Txt_idNomina = new System.Windows.Forms.TextBox();
             this.Lbl_documentoAsociado = new System.Windows.Forms.Label();
+            this.Chk_aplicado = new System.Windows.Forms.CheckBox();
             this.Dtpck_fecha = new System.Windows.Forms.DateTimePicker();
             this.Lbl_fechaEmision = new System.Windows.Forms.Label();
             this.Lbl_tipoPoliza = new System.Windows.Forms.Label();
@@ -49,12 +50,12 @@
             this.Lbl_sumasIguales = new System.Windows.Forms.Label();
             this.Txt_sumaDebe = new System.Windows.Forms.TextBox();
             this.Txt_sumaHaber = new System.Windows.Forms.TextBox();
-            this.Chk_aplicado = new System.Windows.Forms.CheckBox();
             this.Lbl_descripcion = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Btn_aceptar = new System.Windows.Forms.Button();
             this.Btn_consultaNomina = new System.Windows.Forms.Button();
             this.Lbl_codigoCuenta = new System.Windows.Forms.Label();
+            this.Btn_eliminarCuenta = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Grpbx_encabezadoNomina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detallePoliza)).BeginInit();
@@ -150,6 +151,16 @@
             this.Lbl_documentoAsociado.Size = new System.Drawing.Size(198, 21);
             this.Lbl_documentoAsociado.TabIndex = 8;
             this.Lbl_documentoAsociado.Text = "Documento asociado:";
+            // 
+            // Chk_aplicado
+            // 
+            this.Chk_aplicado.AutoSize = true;
+            this.Chk_aplicado.Location = new System.Drawing.Point(832, 10);
+            this.Chk_aplicado.Name = "Chk_aplicado";
+            this.Chk_aplicado.Size = new System.Drawing.Size(110, 25);
+            this.Chk_aplicado.TabIndex = 7;
+            this.Chk_aplicado.Text = "Aplicada";
+            this.Chk_aplicado.UseVisualStyleBackColor = true;
             // 
             // Dtpck_fecha
             // 
@@ -255,6 +266,7 @@
             // 
             // Txt_sumaDebe
             // 
+            this.Txt_sumaDebe.Enabled = false;
             this.Txt_sumaDebe.Location = new System.Drawing.Point(522, 597);
             this.Txt_sumaDebe.Name = "Txt_sumaDebe";
             this.Txt_sumaDebe.Size = new System.Drawing.Size(219, 28);
@@ -263,20 +275,11 @@
             // 
             // Txt_sumaHaber
             // 
+            this.Txt_sumaHaber.Enabled = false;
             this.Txt_sumaHaber.Location = new System.Drawing.Point(766, 597);
             this.Txt_sumaHaber.Name = "Txt_sumaHaber";
             this.Txt_sumaHaber.Size = new System.Drawing.Size(219, 28);
             this.Txt_sumaHaber.TabIndex = 6;
-            // 
-            // Chk_aplicado
-            // 
-            this.Chk_aplicado.AutoSize = true;
-            this.Chk_aplicado.Location = new System.Drawing.Point(832, 10);
-            this.Chk_aplicado.Name = "Chk_aplicado";
-            this.Chk_aplicado.Size = new System.Drawing.Size(110, 25);
-            this.Chk_aplicado.TabIndex = 7;
-            this.Chk_aplicado.Text = "Aplicada";
-            this.Chk_aplicado.UseVisualStyleBackColor = true;
             // 
             // Lbl_descripcion
             // 
@@ -326,11 +329,24 @@
             this.Lbl_codigoCuenta.Size = new System.Drawing.Size(0, 21);
             this.Lbl_codigoCuenta.TabIndex = 11;
             // 
+            // Btn_eliminarCuenta
+            // 
+            this.Btn_eliminarCuenta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(173)))), ((int)(((byte)(215)))));
+            this.Btn_eliminarCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_eliminarCuenta.Location = new System.Drawing.Point(12, 577);
+            this.Btn_eliminarCuenta.Name = "Btn_eliminarCuenta";
+            this.Btn_eliminarCuenta.Size = new System.Drawing.Size(174, 36);
+            this.Btn_eliminarCuenta.TabIndex = 12;
+            this.Btn_eliminarCuenta.Text = "Eliminar Cuenta";
+            this.Btn_eliminarCuenta.UseVisualStyleBackColor = true;
+            this.Btn_eliminarCuenta.Click += new System.EventHandler(this.Btn_eliminarCuenta_Click);
+            // 
             // Frm_Poliza_Nomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.Btn_eliminarCuenta);
             this.Controls.Add(this.Lbl_codigoCuenta);
             this.Controls.Add(this.Btn_aceptar);
             this.Controls.Add(this.textBox2);
@@ -388,5 +404,6 @@
         private System.Windows.Forms.TextBox Txt_idNomina;
         private System.Windows.Forms.ComboBox Cmbx_tipoPoliza;
         private System.Windows.Forms.Label Lbl_codigoCuenta;
+        private System.Windows.Forms.Button Btn_eliminarCuenta;
     }
 }
