@@ -62,5 +62,41 @@ namespace CapaLogica_RRHH
             return sn.ConsultaGraficaAsistencias2(nom);
         }
 
+        public OdbcDataReader ConsultaLogicaEmpleados()
+        {
+            return sn.ConsultaEmpleados();
+        }
+
+        public OdbcDataReader ConsultaLogicaEmpleadoFiltro(string nom)
+        {
+            return sn.ConsultaEmpleadoFiltro(nom);
+        }
+
+        public OdbcDataReader ConsultaLogicaPerfiles()
+        {
+            return sn.ConsultaPerfil();
+        }
+
+        public OdbcDataReader ConsultaLogicaPerfilesFiltro(string nom)
+        {
+            return sn.ConsultaPerfilFiltro(nom);
+        }
+
+        public OdbcDataReader ConsultaLogicaMedios()
+        {
+            return sn.ConsultaMedio();
+        }
+
+        public OdbcDataReader ConsultaLogicaMediosFiltro(string nom)
+        {
+            return sn.ConsultaMedioFiltro(nom);
+        }
+
+        /*INSERT*/
+        public OdbcDataReader InsertarReporte(string idEmpleado, string idPuesto, string fecha, string tipo,string medio ,string razon, string descripcion)
+        {   //(txt_idCreador.Text, txt_idPerfil.Text, fec, cmb_TipoContratacion.SelectedItem.ToString(), txt_medio.Text, txt_razon.Text, txt_cualidades.Text);
+            return sn.InsertarRepor(idEmpleado, idPuesto, fecha, tipo, medio,razon, descripcion);
+        }
+
     }
 }

@@ -448,5 +448,29 @@ namespace Recursos_Humanos
                 desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        private void SolicitudDeEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_SolicitudEmpleado desempeño = new Frm_SolicitudEmpleado("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_SolicitudEmpleado);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_SolicitudEmpleado(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

@@ -149,6 +149,136 @@ namespace CapaDatos_RRHH
             }
 
         }
+        /*Empleados*/
+        public OdbcDataReader ConsultaEmpleados()
+        {
+            try
+            {
+                cn.probarConexion();
+                // string consultaGraAsis = " select kidempleado, nombres, apellidos from tbl_empleado where nombres like '" + nom + "';";
+                string consultaGraAsis = " select kidempleado, nombres, apellidos from tbl_empleado;";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader ConsultaEmpleadoFiltro(string nom)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = " select kidempleado, nombres, apellidos from tbl_empleado where nombres like '" + nom + "';";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN Empleados*/
+        /*Perfiles*/
+        public OdbcDataReader ConsultaPerfil()
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraAsis = " select KidPerfil, Nombre_Puesto, Descripcion_Tareas from tbl_perfil_profesional;";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader ConsultaPerfilFiltro(string nom)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "select KidPerfil, Nombre_Puesto, Descripcion_Tareas from tbl_perfil_profesional where Nombre_Puesto like '" + nom + "';";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN Perfiles*/
+        /*MEDIOS*/
+        public OdbcDataReader ConsultaMedio()
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraAsis = " select KidMediosComunicacion, Nombre_medio, Tipo_medio from tbl_medios_comunicacion;";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader ConsultaMedioFiltro(string nom)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "select KidMediosComunicacion, Nombre_medio, Tipo_medio from tbl_medios_comunicacion where Nombre_medio like '" + nom + "';";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN Perfiles*/
+        /*INSERTAR */
+        public OdbcDataReader InsertarRepor(string idEmpleado, string idPuesto, string fecha, string tipo, string medio, string razon, string descripcion)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "insert into tbl_encabezadoreportevacante values ("+ 1 +","+ idEmpleado + "," + idPuesto + "," + "'"+fecha + "'" + "," +"'"+ tipo + "'" + "," + medio + "," + 1 +");";
+                string consulta2 = "insert into tbl_detallereportevacante values (" + 1 + "," + "'"+razon + "'" + "," + "'"+descripcion + "'" + "," + 1 + ");";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                comm = new OdbcCommand(consulta2, cn.probarConexion());
+                OdbcDataReader mostrar2 = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*fin insertar*/
         //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
 
 
