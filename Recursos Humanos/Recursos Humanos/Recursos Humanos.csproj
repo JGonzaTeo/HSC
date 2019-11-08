@@ -55,6 +55,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Consultas\Frm_consultaCreador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaCreador.Designer.cs">
+      <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMedio.Designer.cs">
+      <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaPerfil.Designer.cs">
+      <DependentUpon>Frm_consultaPerfil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_capacitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +102,12 @@
     </Compile>
     <Compile Include="Frm_ResultadoBT.Designer.cs">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SolicitudEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SolicitudEmpleado.Designer.cs">
+      <DependentUpon>Frm_SolicitudEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantAreas.cs">
       <SubType>Form</SubType>
@@ -144,6 +168,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Consultas\Frm_consultaCreador.resx">
+      <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaMedio.resx">
+      <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaPerfil.resx">
+      <DependentUpon>Frm_consultaPerfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_capacitaciones.resx">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ResultadoBT.resx">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SolicitudEmpleado.resx">
+      <DependentUpon>Frm_SolicitudEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantAreas.resx">
       <DependentUpon>Frm_mantAreas.cs</DependentUpon>
@@ -194,5 +230,6 @@
   <ItemGroup>
     <None Include="Resources\icons8-cerrar-ventana-35.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
