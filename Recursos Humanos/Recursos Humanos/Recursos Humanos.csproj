@@ -61,6 +61,18 @@
     <Compile Include="Frm_capacitaciones.Designer.cs">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_ControlAsistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ControlAsistencias.Designer.cs">
+      <DependentUpon>Frm_ControlAsistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DesempeñoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DesempeñoEmpleado.Designer.cs">
+      <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_nominas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +146,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Frm_capacitaciones.resx">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ControlAsistencias.resx">
+      <DependentUpon>Frm_ControlAsistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DesempeñoEmpleado.resx">
+      <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_nominas.resx">
       <DependentUpon>Frm_nominas.cs</DependentUpon>

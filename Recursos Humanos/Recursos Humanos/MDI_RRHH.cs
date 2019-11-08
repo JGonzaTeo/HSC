@@ -376,7 +376,9 @@ namespace Recursos_Humanos
         bool ventanaResultado = false;
         Frm_ResultadoBT resultado = new Frm_ResultadoBT("");
 
-        private void ResultadosBTToolStripMenuItem_Click(object sender, EventArgs e)
+        
+
+        private void ResultadosBTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ResultadoBT);
             if (ventanaResultado == false || frmC == null)
@@ -394,6 +396,56 @@ namespace Recursos_Humanos
             else
             {
                 resultado.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+
+        private void DesempeñoEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_DesempeñoEmpleado desempeño = new Frm_DesempeñoEmpleado("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_DesempeñoEmpleado);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_DesempeñoEmpleado(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        
+        private void ControlDeAsistenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_ControlAsistencias desempeño = new Frm_ControlAsistencias("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ControlAsistencias);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_ControlAsistencias(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

@@ -36,5 +36,31 @@ namespace CapaLogica_RRHH
             dtaGrafica.Fill(grafica);
             return grafica;
         }
+
+        public OdbcDataReader ConsultaLogicaDesempeño(string cod)
+        {
+            return sn.ConsultaDesempeñoEmpleado(cod);
+        }
+
+        public DataTable ConsultaLogicaGraficaDesempeño(string cod)
+        {
+            OdbcDataAdapter dtaGrafica = sn.ConsultaGraficaDesempeño(cod);
+            DataTable grafica = new DataTable();
+            dtaGrafica.Fill(grafica);
+            return grafica;
+        }
+        /*
+                public DataTable ConsultaLogicaGraficaAsistencia(string nom)
+                {
+                    OdbcDataAdapter dtaGrafica = sn.ConsultaGraficaAsistencias(nom);
+                    DataTable grafica = new DataTable();
+                    dtaGrafica.Fill(grafica);
+                    return grafica;
+                }*/
+        public OdbcDataReader ConsultaLogicaGraficaAsistencia(string nom)
+        {
+            return sn.ConsultaGraficaAsistencias2(nom);
+        }
+
     }
 }
