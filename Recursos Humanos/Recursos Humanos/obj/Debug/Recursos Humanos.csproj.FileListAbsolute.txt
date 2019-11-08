@@ -211,3 +211,6 @@ C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Human
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CopyComplete
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
 C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
