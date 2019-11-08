@@ -18,6 +18,7 @@ namespace Recursos_Humanos
         string usuario;
         ToolTip ayuda_tp = new ToolTip();
         Logica logic = new Logica();
+        public static int contador_fila = 0;
         public Frm_Poliza_Nomina(string usuario)
         {
             InitializeComponent();
@@ -44,8 +45,52 @@ namespace Recursos_Humanos
 
         private void ConsultarCuentas(object sender, DataGridViewCellEventArgs e)
         {
-            Frm_consultaCuentas consultaCuentas = new Frm_consultaCuentas();
-            consultaCuentas.Show();
+            Frm_consultaMostrarCuenta consultaCuentas = new Frm_consultaMostrarCuenta();
+            consultaCuentas.ShowDialog();
+
+            if(consultaCuentas.DialogResult == DialogResult.OK)
+            {
+                bool existe = false;
+                int num_fila = 0; 
+
+                if(contador_fila == 0)
+                {
+                    Dgv_detallePoliza.Rows.Add(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(),
+                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[2].Value.ToString(),
+                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[4].Value.ToString(),
+                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[5].Value.ToString());
+                    contador_fila++;
+                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); //prueba
+                }
+                else
+                {
+                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); //prueba
+                    /*
+                    foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
+                    {
+                        Console.WriteLine(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString()); //prueba
+                        if(Fila.Cells[0].Value.ToString() == Lbl_codigoCuenta.Text)
+                        {
+                            existe = true;
+                            num_fila = Fila.Index;
+                        }
+                    }
+                    */
+                    //CODIGO QUE SE EJECUTA CUANDO SE HA AGREGADO MAS DE UNA CUENTA
+                    if(existe == true)
+                    {
+                        MessageBox.Show("Esta Cuenta ya ha sido agregada");
+                    } else
+                    {
+                        Dgv_detallePoliza.Rows.Add(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(),
+                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[2].Value.ToString(),
+                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[4].Value.ToString(),
+                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[5].Value.ToString());
+                        contador_fila++;
+                    }
+                }
+                
+            }
         }
 
         private void Btn_consultaNomina_Click(object sender, EventArgs e)
@@ -68,5 +113,6 @@ namespace Recursos_Humanos
                 Cmbx_tipoPoliza.Items.Add(row[0].ToString());
             }
         }
+
     }
 }

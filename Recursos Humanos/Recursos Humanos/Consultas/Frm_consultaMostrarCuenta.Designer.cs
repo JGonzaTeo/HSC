@@ -42,6 +42,8 @@
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Btn_seleccionar = new System.Windows.Forms.Button();
             this.Btn_actualizar = new System.Windows.Forms.Button();
+            this.debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_mostrarCuentas)).BeginInit();
             this.SuspendLayout();
@@ -108,6 +110,7 @@
             this.Txt_nombreCuenta.Name = "Txt_nombreCuenta";
             this.Txt_nombreCuenta.Size = new System.Drawing.Size(416, 28);
             this.Txt_nombreCuenta.TabIndex = 2;
+            this.Txt_nombreCuenta.TextChanged += new System.EventHandler(this.Txt_nombreCuenta_TextChanged);
             // 
             // Btn_buscar
             // 
@@ -119,6 +122,7 @@
             this.Btn_buscar.Size = new System.Drawing.Size(40, 40);
             this.Btn_buscar.TabIndex = 11;
             this.Btn_buscar.UseVisualStyleBackColor = true;
+            this.Btn_buscar.Click += new System.EventHandler(this.Btn_buscar_Click);
             // 
             // Dgv_mostrarCuentas
             // 
@@ -132,13 +136,16 @@
             this.idCuenta,
             this.tipoCuenta,
             this.nombre,
-            this.descripcion});
-            this.Dgv_mostrarCuentas.Location = new System.Drawing.Point(96, 149);
+            this.descripcion,
+            this.debe,
+            this.haber});
+            this.Dgv_mostrarCuentas.Location = new System.Drawing.Point(39, 146);
             this.Dgv_mostrarCuentas.Name = "Dgv_mostrarCuentas";
             this.Dgv_mostrarCuentas.RowHeadersVisible = false;
             this.Dgv_mostrarCuentas.RowHeadersWidth = 51;
             this.Dgv_mostrarCuentas.RowTemplate.Height = 24;
-            this.Dgv_mostrarCuentas.Size = new System.Drawing.Size(674, 376);
+            this.Dgv_mostrarCuentas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.Dgv_mostrarCuentas.Size = new System.Drawing.Size(812, 376);
             this.Dgv_mostrarCuentas.TabIndex = 12;
             // 
             // idCuenta
@@ -170,7 +177,7 @@
             this.Btn_seleccionar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_seleccionar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(173)))), ((int)(((byte)(215)))));
             this.Btn_seleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_seleccionar.Location = new System.Drawing.Point(641, 554);
+            this.Btn_seleccionar.Location = new System.Drawing.Point(709, 554);
             this.Btn_seleccionar.Name = "Btn_seleccionar";
             this.Btn_seleccionar.Size = new System.Drawing.Size(129, 34);
             this.Btn_seleccionar.TabIndex = 13;
@@ -183,13 +190,25 @@
             this.Btn_actualizar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(173)))), ((int)(((byte)(215)))));
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_actualizar.Location = new System.Drawing.Point(446, 554);
+            this.Btn_actualizar.Location = new System.Drawing.Point(496, 554);
             this.Btn_actualizar.Name = "Btn_actualizar";
             this.Btn_actualizar.Size = new System.Drawing.Size(129, 34);
             this.Btn_actualizar.TabIndex = 14;
             this.Btn_actualizar.Text = "Actualizar";
             this.Btn_actualizar.UseVisualStyleBackColor = true;
             this.Btn_actualizar.Click += new System.EventHandler(this.Btn_actualizar_Click);
+            // 
+            // debe
+            // 
+            this.debe.HeaderText = "Debe";
+            this.debe.MinimumWidth = 6;
+            this.debe.Name = "debe";
+            // 
+            // haber
+            // 
+            this.haber.HeaderText = "Haber";
+            this.haber.MinimumWidth = 6;
+            this.haber.Name = "haber";
             // 
             // Frm_consultaMostrarCuenta
             // 
@@ -234,5 +253,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
         private System.Windows.Forms.Button Btn_seleccionar;
         private System.Windows.Forms.Button Btn_actualizar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn debe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn haber;
     }
 }

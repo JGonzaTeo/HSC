@@ -41,10 +41,29 @@ namespace Recursos_Humanos.Consultas
             {
                 while (mostrarCuentas.Read())
                 {
-                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentas.GetString(0), mostrarCuentas.GetString(1), mostrarCuentas.GetString(2), mostrarCuentas.GetString(3));
+                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentas.GetString(0), mostrarCuentas.GetString(1), mostrarCuentas.GetString(3), mostrarCuentas.GetString(4),
+                        mostrarCuentas.GetString(6), mostrarCuentas.GetString(7));
                 }
             }
             catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+            }
+        }
+
+        public void MostrarCuentasConFiltro()
+        {
+            Dgv_mostrarCuentas.Rows.Clear();
+            OdbcDataReader mostrarCuentasFiltro = logic.ConsultaLogicaCuentasFiltro(Txt_nombreCuenta.Text);
+            try
+            {
+                while (mostrarCuentasFiltro.Read())
+                {
+                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentasFiltro.GetString(0), mostrarCuentasFiltro.GetString(1), mostrarCuentasFiltro.GetString(3), mostrarCuentasFiltro.GetString(4),
+                        mostrarCuentasFiltro.GetString(6), mostrarCuentasFiltro.GetString(7));
+                }
+            }
+            catch(Exception err)
             {
                 Console.WriteLine(err.Message);
             }
@@ -71,6 +90,16 @@ namespace Recursos_Humanos.Consultas
                 DialogResult = DialogResult.OK;
                 Close();
             }
+        }
+
+        private void Btn_buscar_Click(object sender, EventArgs e)
+        {
+            MostrarCuentasConFiltro();
+        }
+
+        private void Txt_nombreCuenta_TextChanged(object sender, EventArgs e)
+        {
+            MostrarCuentasConFiltro();
         }
     }
 }

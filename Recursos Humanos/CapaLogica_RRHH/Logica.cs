@@ -60,6 +60,11 @@ namespace CapaLogica_RRHH
             dtaTipoPoliza.Fill(tableTipoPoliza);
             return tableTipoPoliza;
         }
+  
+        public void AgregarCuentaContablle()
+        {
+
+        }
 
         //   ***FIN DE LOGICA PARA EL ÁREA DE PÓLIZAS***
     }

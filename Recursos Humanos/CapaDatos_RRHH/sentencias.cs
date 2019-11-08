@@ -88,7 +88,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cnx.probarConexion();
-                string consultaNominas = "SELECT KidNomina, KidEmpleado, fecha, sueldoliquido FROM tbl_nominasencabezado WHERE fecha BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
+                string consultaNominas = "SELECT KidNomina, KidEmpleado_Contable, fecha_de_emision, sueldo_liquido FROM tbl_nominasencabezado WHERE fecha_de_emision BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE();";
                 comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
                 OdbcDataReader mostrarNominas = comm.ExecuteReader();
                 return mostrarNominas;

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
+            this.Btn_salir = new System.Windows.Forms.Button();
             this.Lbl_titulo = new System.Windows.Forms.Label();
             this.Grpbx_encabezadoNomina = new System.Windows.Forms.GroupBox();
             this.Cmbx_tipoPoliza = new System.Windows.Forms.ComboBox();
@@ -52,8 +54,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Btn_aceptar = new System.Windows.Forms.Button();
             this.Btn_consultaNomina = new System.Windows.Forms.Button();
-            this.Btn_minimizar = new System.Windows.Forms.Button();
-            this.Btn_salir = new System.Windows.Forms.Button();
+            this.Lbl_codigoCuenta = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.Grpbx_encabezadoNomina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detallePoliza)).BeginInit();
@@ -72,6 +73,30 @@
             this.panel1.Size = new System.Drawing.Size(1000, 52);
             this.panel1.TabIndex = 0;
             // 
+            // Btn_minimizar
+            // 
+            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
+            this.Btn_minimizar.Location = new System.Drawing.Point(830, 10);
+            this.Btn_minimizar.Name = "Btn_minimizar";
+            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
+            this.Btn_minimizar.TabIndex = 1;
+            this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
+            // 
+            // Btn_salir
+            // 
+            this.Btn_salir.FlatAppearance.BorderSize = 0;
+            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
+            this.Btn_salir.Location = new System.Drawing.Point(916, 10);
+            this.Btn_salir.Name = "Btn_salir";
+            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
+            this.Btn_salir.TabIndex = 2;
+            this.Btn_salir.UseVisualStyleBackColor = true;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            // 
             // Lbl_titulo
             // 
             this.Lbl_titulo.AutoSize = true;
@@ -88,6 +113,7 @@
             this.Grpbx_encabezadoNomina.Controls.Add(this.Cmbx_tipoPoliza);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Txt_idNomina);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_documentoAsociado);
+            this.Grpbx_encabezadoNomina.Controls.Add(this.Chk_aplicado);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Dtpck_fecha);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_fechaEmision);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_tipoPoliza);
@@ -182,7 +208,7 @@
             this.nombre,
             this.debe,
             this.haber});
-            this.Dgv_detallePoliza.Location = new System.Drawing.Point(12, 174);
+            this.Dgv_detallePoliza.Location = new System.Drawing.Point(12, 263);
             this.Dgv_detallePoliza.Name = "Dgv_detallePoliza";
             this.Dgv_detallePoliza.RowHeadersVisible = false;
             this.Dgv_detallePoliza.RowHeadersWidth = 51;
@@ -221,7 +247,7 @@
             // Lbl_sumasIguales
             // 
             this.Lbl_sumasIguales.AutoSize = true;
-            this.Lbl_sumasIguales.Location = new System.Drawing.Point(351, 495);
+            this.Lbl_sumasIguales.Location = new System.Drawing.Point(350, 604);
             this.Lbl_sumasIguales.Name = "Lbl_sumasIguales";
             this.Lbl_sumasIguales.Size = new System.Drawing.Size(143, 21);
             this.Lbl_sumasIguales.TabIndex = 4;
@@ -229,7 +255,7 @@
             // 
             // Txt_sumaDebe
             // 
-            this.Txt_sumaDebe.Location = new System.Drawing.Point(526, 488);
+            this.Txt_sumaDebe.Location = new System.Drawing.Point(522, 597);
             this.Txt_sumaDebe.Name = "Txt_sumaDebe";
             this.Txt_sumaDebe.Size = new System.Drawing.Size(219, 28);
             this.Txt_sumaDebe.TabIndex = 5;
@@ -237,7 +263,7 @@
             // 
             // Txt_sumaHaber
             // 
-            this.Txt_sumaHaber.Location = new System.Drawing.Point(763, 488);
+            this.Txt_sumaHaber.Location = new System.Drawing.Point(766, 597);
             this.Txt_sumaHaber.Name = "Txt_sumaHaber";
             this.Txt_sumaHaber.Size = new System.Drawing.Size(219, 28);
             this.Txt_sumaHaber.TabIndex = 6;
@@ -245,7 +271,7 @@
             // Chk_aplicado
             // 
             this.Chk_aplicado.AutoSize = true;
-            this.Chk_aplicado.Location = new System.Drawing.Point(18, 495);
+            this.Chk_aplicado.Location = new System.Drawing.Point(832, 10);
             this.Chk_aplicado.Name = "Chk_aplicado";
             this.Chk_aplicado.Size = new System.Drawing.Size(110, 25);
             this.Chk_aplicado.TabIndex = 7;
@@ -255,7 +281,7 @@
             // Lbl_descripcion
             // 
             this.Lbl_descripcion.AutoSize = true;
-            this.Lbl_descripcion.Location = new System.Drawing.Point(14, 532);
+            this.Lbl_descripcion.Location = new System.Drawing.Point(14, 160);
             this.Lbl_descripcion.Name = "Lbl_descripcion";
             this.Lbl_descripcion.Size = new System.Drawing.Size(112, 21);
             this.Lbl_descripcion.TabIndex = 8;
@@ -263,7 +289,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(18, 569);
+            this.textBox2.Location = new System.Drawing.Point(18, 184);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(964, 69);
@@ -292,39 +318,23 @@
             this.Btn_consultaNomina.UseVisualStyleBackColor = true;
             this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
             // 
-            // Btn_minimizar
+            // Lbl_codigoCuenta
             // 
-            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
-            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
-            this.Btn_minimizar.Location = new System.Drawing.Point(830, 10);
-            this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
-            this.Btn_minimizar.TabIndex = 1;
-            this.Btn_minimizar.UseVisualStyleBackColor = true;
-            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
-            // 
-            // Btn_salir
-            // 
-            this.Btn_salir.FlatAppearance.BorderSize = 0;
-            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
-            this.Btn_salir.Location = new System.Drawing.Point(916, 10);
-            this.Btn_salir.Name = "Btn_salir";
-            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
-            this.Btn_salir.TabIndex = 2;
-            this.Btn_salir.UseVisualStyleBackColor = true;
-            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            this.Lbl_codigoCuenta.AutoSize = true;
+            this.Lbl_codigoCuenta.Location = new System.Drawing.Point(8, 629);
+            this.Lbl_codigoCuenta.Name = "Lbl_codigoCuenta";
+            this.Lbl_codigoCuenta.Size = new System.Drawing.Size(0, 21);
+            this.Lbl_codigoCuenta.TabIndex = 11;
             // 
             // Frm_Poliza_Nomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.Lbl_codigoCuenta);
             this.Controls.Add(this.Btn_aceptar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.Lbl_descripcion);
-            this.Controls.Add(this.Chk_aplicado);
             this.Controls.Add(this.Txt_sumaHaber);
             this.Controls.Add(this.Txt_sumaDebe);
             this.Controls.Add(this.Lbl_sumasIguales);
@@ -377,5 +387,6 @@
         private System.Windows.Forms.Label Lbl_documentoAsociado;
         private System.Windows.Forms.TextBox Txt_idNomina;
         private System.Windows.Forms.ComboBox Cmbx_tipoPoliza;
+        private System.Windows.Forms.Label Lbl_codigoCuenta;
     }
 }

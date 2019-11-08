@@ -188,7 +188,6 @@ C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proye
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CoreCompileInputs.cache
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCuentas.resources
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaMostrarCuenta.resources
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaNomina.resources
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\Recursos Humanos.dll
