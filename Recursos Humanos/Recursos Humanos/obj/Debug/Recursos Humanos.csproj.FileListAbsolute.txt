@@ -213,3 +213,4 @@ C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proye
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CopyComplete
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCuenta.resources

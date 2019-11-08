@@ -41,8 +41,7 @@ namespace Recursos_Humanos.Consultas
             {
                 while (mostrarCuentas.Read())
                 {
-                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentas.GetString(0), mostrarCuentas.GetString(1), mostrarCuentas.GetString(3), mostrarCuentas.GetString(4),
-                        mostrarCuentas.GetString(6), mostrarCuentas.GetString(7));
+                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentas.GetString(0), mostrarCuentas.GetString(1), mostrarCuentas.GetString(3), mostrarCuentas.GetString(4));
                 }
             }
             catch (Exception err)
@@ -59,8 +58,7 @@ namespace Recursos_Humanos.Consultas
             {
                 while (mostrarCuentasFiltro.Read())
                 {
-                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentasFiltro.GetString(0), mostrarCuentasFiltro.GetString(1), mostrarCuentasFiltro.GetString(3), mostrarCuentasFiltro.GetString(4),
-                        mostrarCuentasFiltro.GetString(6), mostrarCuentasFiltro.GetString(7));
+                    Dgv_mostrarCuentas.Rows.Add(mostrarCuentasFiltro.GetString(0), mostrarCuentasFiltro.GetString(1), mostrarCuentasFiltro.GetString(3), mostrarCuentasFiltro.GetString(4));
                 }
             }
             catch(Exception err)

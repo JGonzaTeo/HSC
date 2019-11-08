@@ -55,6 +55,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Consultas\Frm_consultaCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaCuenta.Designer.cs">
+      <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\Frm_consultaMostrarCuenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,6 +153,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Consultas\Frm_consultaCuenta.resx">
+      <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_consultaMostrarCuenta.resx">
       <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
     </EmbeddedResource>

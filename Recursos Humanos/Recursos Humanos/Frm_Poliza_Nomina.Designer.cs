@@ -328,6 +328,7 @@
             this.Lbl_codigoCuenta.Name = "Lbl_codigoCuenta";
             this.Lbl_codigoCuenta.Size = new System.Drawing.Size(0, 21);
             this.Lbl_codigoCuenta.TabIndex = 11;
+            this.Lbl_codigoCuenta.Visible = false;
             // 
             // Btn_eliminarCuenta
             // 

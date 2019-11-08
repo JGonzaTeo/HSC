@@ -36,14 +36,12 @@
             this.Txt_nombreCuenta = new System.Windows.Forms.TextBox();
             this.Btn_buscar = new System.Windows.Forms.Button();
             this.Dgv_mostrarCuentas = new System.Windows.Forms.DataGridView();
+            this.Btn_seleccionar = new System.Windows.Forms.Button();
+            this.Btn_actualizar = new System.Windows.Forms.Button();
             this.idCuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoCuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Btn_seleccionar = new System.Windows.Forms.Button();
-            this.Btn_actualizar = new System.Windows.Forms.Button();
-            this.debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_mostrarCuentas)).BeginInit();
             this.SuspendLayout();
@@ -136,9 +134,7 @@
             this.idCuenta,
             this.tipoCuenta,
             this.nombre,
-            this.descripcion,
-            this.debe,
-            this.haber});
+            this.descripcion});
             this.Dgv_mostrarCuentas.Location = new System.Drawing.Point(39, 146);
             this.Dgv_mostrarCuentas.Name = "Dgv_mostrarCuentas";
             this.Dgv_mostrarCuentas.RowHeadersVisible = false;
@@ -147,30 +143,6 @@
             this.Dgv_mostrarCuentas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Dgv_mostrarCuentas.Size = new System.Drawing.Size(812, 376);
             this.Dgv_mostrarCuentas.TabIndex = 12;
-            // 
-            // idCuenta
-            // 
-            this.idCuenta.HeaderText = "Cuenta";
-            this.idCuenta.MinimumWidth = 6;
-            this.idCuenta.Name = "idCuenta";
-            // 
-            // tipoCuenta
-            // 
-            this.tipoCuenta.HeaderText = "Tipo";
-            this.tipoCuenta.MinimumWidth = 6;
-            this.tipoCuenta.Name = "tipoCuenta";
-            // 
-            // nombre
-            // 
-            this.nombre.HeaderText = "Nombre";
-            this.nombre.MinimumWidth = 6;
-            this.nombre.Name = "nombre";
-            // 
-            // descripcion
-            // 
-            this.descripcion.HeaderText = "Descripcion";
-            this.descripcion.MinimumWidth = 6;
-            this.descripcion.Name = "descripcion";
             // 
             // Btn_seleccionar
             // 
@@ -198,17 +170,29 @@
             this.Btn_actualizar.UseVisualStyleBackColor = true;
             this.Btn_actualizar.Click += new System.EventHandler(this.Btn_actualizar_Click);
             // 
-            // debe
+            // idCuenta
             // 
-            this.debe.HeaderText = "Debe";
-            this.debe.MinimumWidth = 6;
-            this.debe.Name = "debe";
+            this.idCuenta.HeaderText = "Cuenta";
+            this.idCuenta.MinimumWidth = 6;
+            this.idCuenta.Name = "idCuenta";
             // 
-            // haber
+            // tipoCuenta
             // 
-            this.haber.HeaderText = "Haber";
-            this.haber.MinimumWidth = 6;
-            this.haber.Name = "haber";
+            this.tipoCuenta.HeaderText = "Tipo";
+            this.tipoCuenta.MinimumWidth = 6;
+            this.tipoCuenta.Name = "tipoCuenta";
+            // 
+            // nombre
+            // 
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.MinimumWidth = 6;
+            this.nombre.Name = "nombre";
+            // 
+            // descripcion
+            // 
+            this.descripcion.HeaderText = "Descripcion";
+            this.descripcion.MinimumWidth = 6;
+            this.descripcion.Name = "descripcion";
             // 
             // Frm_consultaMostrarCuenta
             // 
@@ -247,13 +231,11 @@
         private System.Windows.Forms.TextBox Txt_nombreCuenta;
         private System.Windows.Forms.Button Btn_buscar;
         public System.Windows.Forms.DataGridView Dgv_mostrarCuentas;
+        private System.Windows.Forms.Button Btn_seleccionar;
+        private System.Windows.Forms.Button Btn_actualizar;
         private System.Windows.Forms.DataGridViewTextBoxColumn idCuenta;
         private System.Windows.Forms.DataGridViewTextBoxColumn tipoCuenta;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
-        private System.Windows.Forms.Button Btn_seleccionar;
-        private System.Windows.Forms.Button Btn_actualizar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn debe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn haber;
     }
 }

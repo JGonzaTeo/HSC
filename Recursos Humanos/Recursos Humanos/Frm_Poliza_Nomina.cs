@@ -62,23 +62,27 @@ namespace Recursos_Humanos
                                                consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[4].Value.ToString(),
                                                consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[5].Value.ToString());
                     contador_fila++;
-                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); //prueba
                 }
                 else
                 {
-                    string prueba = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString();
-                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); //prueba
-                    /*
+                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); 
+                    
                     foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
                     {
-                        Console.WriteLine(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString()); //prueba
-                        if(Fila.Cells[0].Value.ToString() == prueba)
+                        try
                         {
-                            existe = true;
-                            num_fila = Fila.Index;
+                            if (Fila.Cells[0].Value.ToString() == Lbl_codigoCuenta.Text)
+                            {
+                                existe = true;
+                                num_fila = Fila.Index;
+                            }
+                        }
+                        catch(Exception err)
+                        {
+                            Console.WriteLine(err.Message);
                         }
                     }
-                    */
+                    
                     //CODIGO QUE SE EJECUTA CUANDO SE HA AGREGADO MAS DE UNA CUENTA
                     if(existe == true)
                     {
@@ -130,14 +134,21 @@ namespace Recursos_Humanos
         {
             if(contador_fila > 0)
             {
-                totalDebe = totalDebe - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[2].Value));
-                totalHaber = totalHaber - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[3].Value));
-                Txt_sumaDebe.Text = totalDebe.ToString();
-                Txt_sumaHaber.Text = totalHaber.ToString();
+                try
+                {
+                    totalDebe = totalDebe - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[2].Value));
+                    totalHaber = totalHaber - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[3].Value));
+                    Txt_sumaDebe.Text = totalDebe.ToString();
+                    Txt_sumaHaber.Text = totalHaber.ToString();
 
-                Dgv_detallePoliza.Rows.RemoveAt(Dgv_detallePoliza.CurrentRow.Index);
+                    Dgv_detallePoliza.Rows.RemoveAt(Dgv_detallePoliza.CurrentRow.Index);
 
-                contador_fila--;
+                    contador_fila--;
+                }
+                catch(Exception err)
+                {
+                    Console.WriteLine(err.Message);
+                }
             }
             else
             {
