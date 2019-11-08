@@ -39,7 +39,7 @@
             this.navegador1.Location = new System.Drawing.Point(3, 1);
             this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1655, 802);
+            this.navegador1.Size = new System.Drawing.Size(1655, 849);
             this.navegador1.TabIndex = 1;
             // 
             // label1
@@ -57,7 +57,7 @@
             // 
             this.Txt_Sig.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Txt_Sig.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Sig.Location = new System.Drawing.Point(251, 166);
+            this.Txt_Sig.Location = new System.Drawing.Point(265, 166);
             this.Txt_Sig.Name = "Txt_Sig";
             this.Txt_Sig.Size = new System.Drawing.Size(32, 15);
             this.Txt_Sig.TabIndex = 8;
@@ -66,7 +66,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1630, 766);
+            this.ClientSize = new System.Drawing.Size(1595, 850);
             this.Controls.Add(this.Txt_Sig);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
