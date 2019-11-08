@@ -28,7 +28,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("14");
+            navegador1.asignarAyuda("17");
             navegador1.asignarTabla("tbl_medios_comunicacion");
             navegador1.asignarNombreForm("Medios de Comunicacion");
             ayuda_tp.IsBalloon = true;
