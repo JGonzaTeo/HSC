@@ -28,28 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Txt_Sig = new System.Windows.Forms.TextBox();
             this.navegador1 = new CapaDeDiseno.Navegador();
             this.label1 = new System.Windows.Forms.Label();
+            this.Txt_Sig = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // Txt_Sig
-            // 
-            this.Txt_Sig.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Txt_Sig.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Sig.Location = new System.Drawing.Point(207, 144);
-            this.Txt_Sig.Name = "Txt_Sig";
-            this.Txt_Sig.Size = new System.Drawing.Size(32, 15);
-            this.Txt_Sig.TabIndex = 6;
             // 
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(1, -51);
+            this.navegador1.Location = new System.Drawing.Point(1, -1);
             this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(1630, 861);
             this.navegador1.TabIndex = 7;
+            this.navegador1.Load += new System.EventHandler(this.Navegador1_Load);
             // 
             // label1
             // 
@@ -62,14 +54,23 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Siguiente Codigo:";
             // 
+            // Txt_Sig
+            // 
+            this.Txt_Sig.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Txt_Sig.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Sig.Location = new System.Drawing.Point(218, 179);
+            this.Txt_Sig.Name = "Txt_Sig";
+            this.Txt_Sig.Size = new System.Drawing.Size(32, 15);
+            this.Txt_Sig.TabIndex = 9;
+            // 
             // Frm_mantMedios_Comunicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1574, 766);
+            this.Controls.Add(this.Txt_Sig);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
-            this.Controls.Add(this.Txt_Sig);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_mantMedios_Comunicacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -80,9 +81,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox Txt_Sig;
         private CapaDeDiseno.Navegador navegador1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox Txt_Sig;
     }
 }

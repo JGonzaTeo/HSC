@@ -52,5 +52,10 @@ namespace Recursos_Humanos.Mantenimientos
             scampo = lo.siguiente("tbl_medios_comunicacion", "KidMediosComunicacion");
             Txt_Sig.Text = scampo;
         }
+
+        private void Navegador1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
