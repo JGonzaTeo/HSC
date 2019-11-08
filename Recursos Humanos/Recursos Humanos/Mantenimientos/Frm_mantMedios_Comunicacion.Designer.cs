@@ -1,6 +1,6 @@
 ﻿namespace Recursos_Humanos.Mantenimientos
 {
-    partial class Frm_mantEmpleado
+    partial class Frm_mantMedios_Comunicacion
     {
         /// <summary>
         /// Required designer variable.
@@ -28,55 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navegador1 = new CapaDeDiseno.Navegador();
             this.Txt_Sig = new System.Windows.Forms.TextBox();
+            this.navegador1 = new CapaDeDiseno.Navegador();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // navegador1
-            // 
-            this.navegador1.BackColor = System.Drawing.Color.White;
-            this.navegador1.Location = new System.Drawing.Point(6, 5);
-            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(1642, 808);
-            this.navegador1.TabIndex = 0;
-            this.navegador1.Load += new System.EventHandler(this.Navegador1_Load);
-            this.navegador1.MouseHover += new System.EventHandler(this.Navegador1_MouseHover);
             // 
             // Txt_Sig
             // 
             this.Txt_Sig.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Txt_Sig.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Sig.Location = new System.Drawing.Point(290, 218);
+            this.Txt_Sig.Location = new System.Drawing.Point(207, 144);
             this.Txt_Sig.Name = "Txt_Sig";
             this.Txt_Sig.Size = new System.Drawing.Size(32, 15);
-            this.Txt_Sig.TabIndex = 4;
+            this.Txt_Sig.TabIndex = 6;
+            // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.Color.White;
+            this.navegador1.Location = new System.Drawing.Point(1, -51);
+            this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(1630, 861);
+            this.navegador1.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(141, 215);
+            this.label1.Location = new System.Drawing.Point(79, 176);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 18);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 8;
             this.label1.Text = "Siguiente Codigo:";
             // 
-            // Frm_mantEmpleado
+            // Frm_mantMedios_Comunicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1648, 813);
-            this.Controls.Add(this.Txt_Sig);
+            this.ClientSize = new System.Drawing.Size(1574, 766);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.Txt_Sig);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Frm_mantEmpleado";
+            this.Name = "Frm_mantMedios_Comunicacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frm_mantEmpleado";
-            this.Load += new System.EventHandler(this.Frm_mantEmpleado_Load);
+            this.Text = "Frm_mantMedios_Comunicacion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,8 +81,8 @@
 
         #endregion
 
-        private CapaDeDiseno.Navegador navegador1;
         private System.Windows.Forms.TextBox Txt_Sig;
+        private CapaDeDiseno.Navegador navegador1;
         private System.Windows.Forms.Label label1;
     }
 }

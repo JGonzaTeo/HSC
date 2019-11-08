@@ -43,14 +43,17 @@
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.capacitacionesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.resultadosBTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resultadosBTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.desempeñoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.resultadosBTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.desempeñoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perfilProfesionalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mediosComunicacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.curriculumsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +71,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(843, 28);
+            this.menuStrip.Size = new System.Drawing.Size(843, 30);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -87,57 +90,60 @@
             this.conceptosToolStripMenuItem,
             this.rolesDePagosToolStripMenuItem,
             this.areasToolStripMenuItem,
-            this.pruebasToolStripMenuItem});
+            this.pruebasToolStripMenuItem,
+            this.perfilProfesionalToolStripMenuItem,
+            this.mediosComunicacionToolStripMenuItem,
+            this.curriculumsToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
-            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(130, 24);
+            this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.EmpleadosToolStripMenuItem_Click);
             // 
             // puestosToolStripMenuItem
             // 
             this.puestosToolStripMenuItem.Name = "puestosToolStripMenuItem";
-            this.puestosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.puestosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.puestosToolStripMenuItem.Text = "Puestos";
             this.puestosToolStripMenuItem.Click += new System.EventHandler(this.PuestosToolStripMenuItem_Click);
             // 
             // departamentosToolStripMenuItem
             // 
             this.departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
-            this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.departamentosToolStripMenuItem.Text = "Departamentos";
             this.departamentosToolStripMenuItem.Click += new System.EventHandler(this.DepartamentosToolStripMenuItem_Click);
             // 
             // conceptosToolStripMenuItem
             // 
             this.conceptosToolStripMenuItem.Name = "conceptosToolStripMenuItem";
-            this.conceptosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.conceptosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.conceptosToolStripMenuItem.Text = "Conceptos";
             this.conceptosToolStripMenuItem.Click += new System.EventHandler(this.ConceptosToolStripMenuItem_Click);
             // 
             // rolesDePagosToolStripMenuItem
             // 
             this.rolesDePagosToolStripMenuItem.Name = "rolesDePagosToolStripMenuItem";
-            this.rolesDePagosToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.rolesDePagosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.rolesDePagosToolStripMenuItem.Text = "Roles de pagos";
             this.rolesDePagosToolStripMenuItem.Click += new System.EventHandler(this.RolesDePagosToolStripMenuItem_Click);
             // 
             // areasToolStripMenuItem
             // 
             this.areasToolStripMenuItem.Name = "areasToolStripMenuItem";
-            this.areasToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.areasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.areasToolStripMenuItem.Text = "Areas";
             this.areasToolStripMenuItem.Click += new System.EventHandler(this.AreasToolStripMenuItem_Click);
             // 
             // pruebasToolStripMenuItem
             // 
             this.pruebasToolStripMenuItem.Name = "pruebasToolStripMenuItem";
-            this.pruebasToolStripMenuItem.Size = new System.Drawing.Size(195, 26);
+            this.pruebasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.pruebasToolStripMenuItem.Text = "Pruebas";
             this.pruebasToolStripMenuItem.Click += new System.EventHandler(this.PruebasToolStripMenuItem_Click);
             // 
@@ -155,14 +161,14 @@
             // nominasToolStripMenuItem
             // 
             this.nominasToolStripMenuItem.Name = "nominasToolStripMenuItem";
-            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.nominasToolStripMenuItem.Text = "Nominas";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.NominasToolStripMenuItem_Click);
             // 
             // capacitacionesToolStripMenuItem1
             // 
             this.capacitacionesToolStripMenuItem1.Name = "capacitacionesToolStripMenuItem1";
-            this.capacitacionesToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.capacitacionesToolStripMenuItem1.Size = new System.Drawing.Size(192, 26);
             this.capacitacionesToolStripMenuItem1.Text = "Capacitaciones";
             this.capacitacionesToolStripMenuItem1.Click += new System.EventHandler(this.CapacitacionesToolStripMenuItem1_Click);
             // 
@@ -172,9 +178,22 @@
             this.resultadosBTToolStripMenuItem1,
             this.desempeñoEmpleadoToolStripMenuItem});
             this.resultadosBTToolStripMenuItem.Name = "resultadosBTToolStripMenuItem";
-            this.resultadosBTToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.resultadosBTToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.resultadosBTToolStripMenuItem.Text = "Estadisticas";
-           
+            // 
+            // resultadosBTToolStripMenuItem1
+            // 
+            this.resultadosBTToolStripMenuItem1.Name = "resultadosBTToolStripMenuItem1";
+            this.resultadosBTToolStripMenuItem1.Size = new System.Drawing.Size(244, 26);
+            this.resultadosBTToolStripMenuItem1.Text = "Resultados BT";
+            this.resultadosBTToolStripMenuItem1.Click += new System.EventHandler(this.ResultadosBTToolStripMenuItem1_Click);
+            // 
+            // desempeñoEmpleadoToolStripMenuItem
+            // 
+            this.desempeñoEmpleadoToolStripMenuItem.Name = "desempeñoEmpleadoToolStripMenuItem";
+            this.desempeñoEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
+            this.desempeñoEmpleadoToolStripMenuItem.Text = "Desempeño Empleado";
+            this.desempeñoEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.DesempeñoEmpleadoToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -212,19 +231,26 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(54, 20);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // resultadosBTToolStripMenuItem1
+            // perfilProfesionalToolStripMenuItem
             // 
-            this.resultadosBTToolStripMenuItem1.Name = "resultadosBTToolStripMenuItem1";
-            this.resultadosBTToolStripMenuItem1.Size = new System.Drawing.Size(244, 26);
-            this.resultadosBTToolStripMenuItem1.Text = "Resultados BT";
-            this.resultadosBTToolStripMenuItem1.Click += new System.EventHandler(this.ResultadosBTToolStripMenuItem1_Click);
+            this.perfilProfesionalToolStripMenuItem.Name = "perfilProfesionalToolStripMenuItem";
+            this.perfilProfesionalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.perfilProfesionalToolStripMenuItem.Text = "Perfil Profesional";
+            this.perfilProfesionalToolStripMenuItem.Click += new System.EventHandler(this.PerfilProfesionalToolStripMenuItem_Click);
             // 
-            // desempeñoEmpleadoToolStripMenuItem
+            // mediosComunicacionToolStripMenuItem
             // 
-            this.desempeñoEmpleadoToolStripMenuItem.Name = "desempeñoEmpleadoToolStripMenuItem";
-            this.desempeñoEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.desempeñoEmpleadoToolStripMenuItem.Text = "Desempeño Empleado";
-            this.desempeñoEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.DesempeñoEmpleadoToolStripMenuItem_Click);
+            this.mediosComunicacionToolStripMenuItem.Name = "mediosComunicacionToolStripMenuItem";
+            this.mediosComunicacionToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
+            this.mediosComunicacionToolStripMenuItem.Text = "Medios Comunicacion";
+            this.mediosComunicacionToolStripMenuItem.Click += new System.EventHandler(this.MediosComunicacionToolStripMenuItem_Click);
+            // 
+            // curriculumsToolStripMenuItem
+            // 
+            this.curriculumsToolStripMenuItem.Name = "curriculumsToolStripMenuItem";
+            this.curriculumsToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
+            this.curriculumsToolStripMenuItem.Text = "Curriculums";
+            this.curriculumsToolStripMenuItem.Click += new System.EventHandler(this.CurriculumsToolStripMenuItem_Click);
             // 
             // MDI_RRHH
             // 
@@ -235,7 +261,7 @@
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MDI_RRHH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MDI_RRHH";
@@ -274,6 +300,9 @@
         private System.Windows.Forms.ToolStripMenuItem resultadosBTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resultadosBTToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem desempeñoEmpleadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem perfilProfesionalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mediosComunicacionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem curriculumsToolStripMenuItem;
     }
 }
 
