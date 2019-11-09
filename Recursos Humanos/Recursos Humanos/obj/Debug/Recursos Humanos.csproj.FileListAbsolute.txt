@@ -261,6 +261,3 @@ C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\R
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaReporteVacante.resources
-C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
-C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
-C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
