@@ -91,11 +91,36 @@ namespace CapaLogica_RRHH
         {
             return sn.ConsultaMedioFiltro(nom);
         }
+        //Reporte
+        public OdbcDataReader ConsultaLogicaReporteEncabezado()
+        {
+            return sn.ConsultaReporteEncabezado();
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteEncabezadoFiltro(string id)
+        {
+            return sn.ConsultaReporteEncabezadoFiltro(id);
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteDetalle()
+        {
+            return sn.ConsultaReporteDetalle();
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteDetalleFiltro(string id)
+        {
+            return sn.ConsultaReporteDetalleFiltro(id);
+        }
 
         /*INSERT*/
-        public OdbcDataReader InsertarReporte(string idEmpleado, string idPuesto, string fecha, string tipo,string medio ,string razon, string descripcion)
-        {   //(txt_idCreador.Text, txt_idPerfil.Text, fec, cmb_TipoContratacion.SelectedItem.ToString(), txt_medio.Text, txt_razon.Text, txt_cualidades.Text);
-            return sn.InsertarRepor(idEmpleado, idPuesto, fecha, tipo, medio,razon, descripcion);
+        public OdbcDataReader InsertarReporteEnca(string reporte, string idEmpleado, string idPuesto, string fecha, string tipo, string medio)
+        {   //(string reporte, string idEmpleado, string idPuesto, string fecha, string tipo, string medio)
+            return sn.InsertarReporEncabezado(reporte, idEmpleado, idPuesto, fecha, tipo,medio);
+        }
+
+        public OdbcDataReader InsertarReporteDeta(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
+        {   //(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
+            return sn.InsertarReporDetalle(cod, primaria,secundaria, bachi, eU, gU, cE, dC, sueldo);
         }
 
     }

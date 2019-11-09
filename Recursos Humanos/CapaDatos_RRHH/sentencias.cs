@@ -257,19 +257,108 @@ namespace CapaDatos_RRHH
                 return null;
             }
         }
-        /*FIN Perfiles*/
-        /*INSERTAR */
-        public OdbcDataReader InsertarRepor(string idEmpleado, string idPuesto, string fecha, string tipo, string medio, string razon, string descripcion)
+        /*FIN MEDIOS*/
+
+        /*REPORTE*/
+        public OdbcDataReader ConsultaReporteEncabezado()
         {
             try
             {
                 cn.probarConexion();
-                string consulta = "insert into tbl_encabezadoreportevacante values ("+ 1 +","+ idEmpleado + "," + idPuesto + "," + "'"+fecha + "'" + "," +"'"+ tipo + "'" + "," + medio + "," + 1 +");";
-                string consulta2 = "insert into tbl_detallereportevacante values (" + 1 + "," + "'"+razon + "'" + "," + "'"+descripcion + "'" + "," + 1 + ");";
+                string consultaGraAsis = "SELECT * FROM tbl_encabezadoreportevacante;";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader ConsultaReporteEncabezadoFiltro(string id)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "SELECT * FROM tbl_encabezadoreportevacante WHERE KidReporteVacante = " + id + ";";
                 comm = new OdbcCommand(consulta, cn.probarConexion());
                 OdbcDataReader mostrar = comm.ExecuteReader();
-                comm = new OdbcCommand(consulta2, cn.probarConexion());
-                OdbcDataReader mostrar2 = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaReporteDetalle()
+        {
+            try
+            {
+                cn.probarConexion();
+                string consultaGraAsis = "SELECT * FROM tbl_detallereportevacante;";
+                comm = new OdbcCommand(consultaGraAsis, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader ConsultaReporteDetalleFiltro(string id)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "SELECT * FROM tbl_detallereportevacante WHERE KidReporteVacante = " + id + ";";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN reporte*/
+
+
+
+        /*INSERTAR */
+        public OdbcDataReader InsertarReporEncabezado(string reporte, string idEmpleado, string idPuesto, string fecha, string tipo, string medio)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "insert into tbl_encabezadoreportevacante values ("+ reporte +","+ idEmpleado + "," + idPuesto + "," + "'"+fecha + "'" + "," +"'"+ tipo + "'" + "," + medio + "," + 1 +");";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader InsertarReporDetalle(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "insert into tbl_detallereportevacante values (" + cod + "," +primaria+ ","+secundaria+","+bachi+ ","+eU+ ","+gU+ ","+cE+ ",'"+dC+ "',"+sueldo+ "," + 1 + ");";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
                 return mostrar;
             }
             catch (Exception err)
