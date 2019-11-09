@@ -1,0 +1,24 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Ayuda-Rhhh.chm
+Contents file=Ayuda-Rhhh.hhc
+Default Window=Ayuda
+Default topic=Area.html
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+Ayuda="AyudaRRHH","Ayuda-Rhhh.hhc",,"Area.html","Area.html",,,,,0x23521,,0x387e,,,,,1,,,0
+
+
+[FILES]
+Area.html
+Conceptos.html
+Departamentos.html
+Empleados.html
+Prueba.html
+Puestos.html
+Roles de pago.html
+
+[INFOTYPES]
+
