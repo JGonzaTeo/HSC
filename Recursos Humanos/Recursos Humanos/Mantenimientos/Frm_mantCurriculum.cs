@@ -23,7 +23,7 @@ namespace Recursos_Humanos.Mantenimientos
             InitializeComponent();
             ususario = user;
 
-            string[] alias = { "Cod Curriculum", "Nombre:", "Apellido:", "Numero:", "Direccion:", "Correo:", "Conocimientos:", "Experiencia Previa:", "Codigo Reporte Vacante:", "Estado:" };
+            string[] alias = { "Cod Curriculum", "Nombre:", "Apellido:", "Numero:", "Direccion:", "Correo:", "Primaria:", "Secundaria:", "Bachillerato", "Estudiante U", "Graduado", "Curso Extra", "Descp. Curso", "Experiencia Previa", "Sueldo Esperado", "Reporte Vacante:", "Estado:" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);

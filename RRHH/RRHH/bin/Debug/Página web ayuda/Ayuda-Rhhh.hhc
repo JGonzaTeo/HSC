@@ -17,6 +17,18 @@
 			<param name="Local" value="Roles de pago.html">
 			</OBJECT>
 		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Perfil Profesional">
+			<param name="Local" value="Perfil_Profesional.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Medios de Comunicacion">
+			<param name="Local" value="MediosComunicacion.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Curriculum">
+			<param name="Local" value="Curriculum.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
 			<param name="Name" value="Puestos">
 			<param name="Local" value="Puestos.html">
 			</OBJECT>

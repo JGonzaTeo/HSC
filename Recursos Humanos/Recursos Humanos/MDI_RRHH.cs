@@ -472,5 +472,74 @@ namespace Recursos_Humanos
                 desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+        bool ventanaPerfil = false;
+        Frm_mantPerfil_Profesional perfil = new Frm_mantPerfil_Profesional("");
+        private void PerfilProfesionalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantPerfil_Profesional);
+            if (ventanaPerfil == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    perfil = new Frm_mantPerfil_Profesional(sUsuario);
+                }
+
+                perfil.MdiParent = this;
+                perfil.Show();
+                Application.DoEvents();
+                ventanaPerfil = true;
+            }
+            else
+            {
+                perfil.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaMedios = false;
+        Frm_mantMedios_Comunicacion medios = new Frm_mantMedios_Comunicacion("");
+        private void MediosComunicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantMedios_Comunicacion);
+            if (ventanaMedios == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    medios = new Frm_mantMedios_Comunicacion(sUsuario);
+                }
+
+                medios.MdiParent = this;
+                medios.Show();
+                Application.DoEvents();
+                ventanaMedios = true;
+            }
+            else
+            {
+                medios.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCurriculum = false;
+        Frm_mantCurriculum curriculum = new Frm_mantCurriculum("");
+        private void CurriculumsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantCurriculum);
+            if (ventanaCurriculum == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    curriculum = new Frm_mantCurriculum(sUsuario);
+                }
+
+                curriculum.MdiParent = this;
+                curriculum.Show();
+                Application.DoEvents();
+                ventanaCurriculum = true;
+            }
+            else
+            {
+                curriculum.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }

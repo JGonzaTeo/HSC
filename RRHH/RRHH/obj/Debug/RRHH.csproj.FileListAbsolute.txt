@@ -124,7 +124,6 @@ C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
-C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\RRHH\RRHH\bin\Debug\CapaLogica.pdb

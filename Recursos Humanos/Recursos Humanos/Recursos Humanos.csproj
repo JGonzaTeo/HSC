@@ -127,6 +127,12 @@
     <Compile Include="Mantenimientos\Frm_mantConceptos.Designer.cs">
       <DependentUpon>Frm_mantConceptos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mantenimientos\Frm_mantCurriculum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantCurriculum.Designer.cs">
+      <DependentUpon>Frm_mantCurriculum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mantenimientos\Frm_mantDepartamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,18 @@
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantEmpleado.Designer.cs">
       <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantMedios_Comunicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantMedios_Comunicacion.Designer.cs">
+      <DependentUpon>Frm_mantMedios_Comunicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantPerfil_Profesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantPerfil_Profesional.Designer.cs">
+      <DependentUpon>Frm_mantPerfil_Profesional.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantPruebas.cs">
       <SubType>Form</SubType>
@@ -210,11 +228,20 @@
     <EmbeddedResource Include="Mantenimientos\Frm_mantConceptos.resx">
       <DependentUpon>Frm_mantConceptos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantCurriculum.resx">
+      <DependentUpon>Frm_mantCurriculum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantDepartamento.resx">
       <DependentUpon>Frm_mantDepartamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantEmpleado.resx">
       <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantMedios_Comunicacion.resx">
+      <DependentUpon>Frm_mantMedios_Comunicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantPerfil_Profesional.resx">
+      <DependentUpon>Frm_mantPerfil_Profesional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantPruebas.resx">
       <DependentUpon>Frm_mantPruebas.cs</DependentUpon>
