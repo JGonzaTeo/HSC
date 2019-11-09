@@ -160,6 +160,17 @@ namespace Recursos_Humanos
                     totalHaber = totalHaber - (Convert.ToDouble(Dgv_detallePoliza.Rows[Dgv_detallePoliza.CurrentRow.Index].Cells[3].Value));
                     Txt_sumaDebe.Text = totalDebe.ToString();
                     Txt_sumaHaber.Text = totalHaber.ToString();
+                    if (totalDebe != totalHaber)
+                    {
+                        cuadra = false;
+                        Lbl_diferencia.ForeColor = Color.Red;
+                        Lbl_sumasIguales.Text = "DIFERENCIA DE " + (totalDebe - totalHaber);
+                    }
+                    else
+                    {
+                        cuadra = true;
+                        Lbl_sumasIguales.Text = "";
+                    }
 
                     Dgv_detallePoliza.Rows.RemoveAt(Dgv_detallePoliza.CurrentRow.Index);
 
@@ -216,6 +227,7 @@ namespace Recursos_Humanos
                 {
                     Console.WriteLine(err.Message);
                 }
+                MessageBox.Show("PÓLIZA GENERADA CORRECTAMENTE");
                 LimpiarFormulario();
             }
             else
