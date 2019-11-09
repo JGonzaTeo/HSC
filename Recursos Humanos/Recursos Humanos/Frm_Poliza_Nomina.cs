@@ -203,7 +203,7 @@ namespace Recursos_Humanos
 
         private void Btn_aceptar_Click(object sender, EventArgs e)
         {
-            if(contador_fila != 0 && cuadra == true)
+            if(contador_fila != 0 && cuadra == true && !String.IsNullOrEmpty(Txt_idNomina.Text) && !String.IsNullOrEmpty(Cmbx_tipoPoliza.Text) && !String.IsNullOrEmpty(Txt_descPoliza.Text))
             {
                 try
                 {
