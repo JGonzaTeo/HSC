@@ -55,29 +55,65 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Consultas\Frm_consultaCreador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaCreador.Designer.cs">
+      <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\Frm_consultaCuenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Consultas\Frm_consultaCuenta.Designer.cs">
       <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consultas\Frm_consultaMedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMedio.Designer.cs">
+      <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\Frm_consultaMostrarCuenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Frm_consultaMostrarCuenta.designer.cs">
+    <Compile Include="Consultas\Frm_consultaMostrarCuenta.Designer.cs">
       <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
     </Compile>
     <Compile Include="Consultas\Frm_consultaNomina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consultas\Frm_consultaNomina.designer.cs">
+    <Compile Include="Consultas\Frm_consultaNomina.Designer.cs">
       <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaPerfil.Designer.cs">
+      <DependentUpon>Frm_consultaPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaReporteVacante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaReporteVacante.Designer.cs">
+      <DependentUpon>Frm_consultaReporteVacante.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_capacitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_capacitaciones.Designer.cs">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ControlAsistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ControlAsistencias.Designer.cs">
+      <DependentUpon>Frm_ControlAsistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DesempeñoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DesempeñoEmpleado.Designer.cs">
+      <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_nominas.cs">
       <SubType>Form</SubType>
@@ -88,7 +124,7 @@
     <Compile Include="Frm_Poliza_Nomina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_Poliza_Nomina.designer.cs">
+    <Compile Include="Frm_Poliza_Nomina.Designer.cs">
       <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ResultadoBT.cs">
@@ -96,6 +132,12 @@
     </Compile>
     <Compile Include="Frm_ResultadoBT.Designer.cs">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_SolicitudEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_SolicitudEmpleado.Designer.cs">
+      <DependentUpon>Frm_SolicitudEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantAreas.cs">
       <SubType>Form</SubType>
@@ -109,6 +151,12 @@
     <Compile Include="Mantenimientos\Frm_mantConceptos.Designer.cs">
       <DependentUpon>Frm_mantConceptos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mantenimientos\Frm_mantCurriculum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantCurriculum.Designer.cs">
+      <DependentUpon>Frm_mantCurriculum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mantenimientos\Frm_mantDepartamento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +168,18 @@
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantEmpleado.Designer.cs">
       <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantMedios_Comunicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantMedios_Comunicacion.Designer.cs">
+      <DependentUpon>Frm_mantMedios_Comunicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantPerfil_Profesional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\Frm_mantPerfil_Profesional.Designer.cs">
+      <DependentUpon>Frm_mantPerfil_Profesional.cs</DependentUpon>
     </Compile>
     <Compile Include="Mantenimientos\Frm_mantPruebas.cs">
       <SubType>Form</SubType>
@@ -151,10 +211,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Validar.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Consultas\Frm_consultaCreador.resx">
+      <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_consultaCuenta.resx">
       <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaMedio.resx">
+      <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_consultaMostrarCuenta.resx">
       <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
@@ -162,8 +231,20 @@
     <EmbeddedResource Include="Consultas\Frm_consultaNomina.resx">
       <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaPerfil.resx">
+      <DependentUpon>Frm_consultaPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaReporteVacante.resx">
+      <DependentUpon>Frm_consultaReporteVacante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_capacitaciones.resx">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ControlAsistencias.resx">
+      <DependentUpon>Frm_ControlAsistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DesempeñoEmpleado.resx">
+      <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_nominas.resx">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
@@ -174,17 +255,29 @@
     <EmbeddedResource Include="Frm_ResultadoBT.resx">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_SolicitudEmpleado.resx">
+      <DependentUpon>Frm_SolicitudEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantAreas.resx">
       <DependentUpon>Frm_mantAreas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantConceptos.resx">
       <DependentUpon>Frm_mantConceptos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantCurriculum.resx">
+      <DependentUpon>Frm_mantCurriculum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantDepartamento.resx">
       <DependentUpon>Frm_mantDepartamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantEmpleado.resx">
       <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantMedios_Comunicacion.resx">
+      <DependentUpon>Frm_mantMedios_Comunicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\Frm_mantPerfil_Profesional.resx">
+      <DependentUpon>Frm_mantPerfil_Profesional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_mantPruebas.resx">
       <DependentUpon>Frm_mantPruebas.cs</DependentUpon>
@@ -210,12 +303,19 @@
     <None Include="Resources\icons8-cerrar-ventana-35.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\aprobar-35.png" />
-    <Content Include="Resources\icons8-búsqueda-35.png" />
-    <None Include="Resources\nomina-351.png" />
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-búsqueda-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-búsqueda-351.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\icons8-transferencia-de-dinero-35.png" />
-    <None Include="Resources\icons8-transferencia-de-dinero-45.png" />
-    <Content Include="Resources\nomina-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-aprobación-35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

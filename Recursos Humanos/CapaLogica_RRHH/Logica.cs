@@ -37,6 +37,92 @@ namespace CapaLogica_RRHH
             return grafica;
         }
 
+        public OdbcDataReader ConsultaLogicaDesempeño(string cod)
+        {
+            return sn.ConsultaDesempeñoEmpleado(cod);
+        }
+
+        public DataTable ConsultaLogicaGraficaDesempeño(string cod)
+        {
+            OdbcDataAdapter dtaGrafica = sn.ConsultaGraficaDesempeño(cod);
+            DataTable grafica = new DataTable();
+            dtaGrafica.Fill(grafica);
+            return grafica;
+        }
+        /*
+                public DataTable ConsultaLogicaGraficaAsistencia(string nom)
+                {
+                    OdbcDataAdapter dtaGrafica = sn.ConsultaGraficaAsistencias(nom);
+                    DataTable grafica = new DataTable();
+                    dtaGrafica.Fill(grafica);
+                    return grafica;
+                }*/
+        public OdbcDataReader ConsultaLogicaGraficaAsistencia(string nom)
+        {
+            return sn.ConsultaGraficaAsistencias2(nom);
+        }
+
+        public OdbcDataReader ConsultaLogicaEmpleados()
+        {
+            return sn.ConsultaEmpleados();
+        }
+
+        public OdbcDataReader ConsultaLogicaEmpleadoFiltro(string nom)
+        {
+            return sn.ConsultaEmpleadoFiltro(nom);
+        }
+
+        public OdbcDataReader ConsultaLogicaPerfiles()
+        {
+            return sn.ConsultaPerfil();
+        }
+
+        public OdbcDataReader ConsultaLogicaPerfilesFiltro(string nom)
+        {
+            return sn.ConsultaPerfilFiltro(nom);
+        }
+
+        public OdbcDataReader ConsultaLogicaMedios()
+        {
+            return sn.ConsultaMedio();
+        }
+
+        public OdbcDataReader ConsultaLogicaMediosFiltro(string nom)
+        {
+            return sn.ConsultaMedioFiltro(nom);
+        }
+        //Reporte
+        public OdbcDataReader ConsultaLogicaReporteEncabezado()
+        {
+            return sn.ConsultaReporteEncabezado();
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteEncabezadoFiltro(string id)
+        {
+            return sn.ConsultaReporteEncabezadoFiltro(id);
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteDetalle()
+        {
+            return sn.ConsultaReporteDetalle();
+        }
+
+        public OdbcDataReader ConsultaLogicaReporteDetalleFiltro(string id)
+        {
+            return sn.ConsultaReporteDetalleFiltro(id);
+        }
+
+        /*INSERT*/
+        public OdbcDataReader InsertarReporteEnca(string reporte, string idEmpleado, string idPuesto, string fecha, string tipo, string medio)
+        {   //(string reporte, string idEmpleado, string idPuesto, string fecha, string tipo, string medio)
+            return sn.InsertarReporEncabezado(reporte, idEmpleado, idPuesto, fecha, tipo,medio);
+        }
+
+        public OdbcDataReader InsertarReporteDeta(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
+        {   //(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
+            return sn.InsertarReporDetalle(cod, primaria,secundaria, bachi, eU, gU, cE, dC, sueldo);
+        }
+
         //   ***LOGICA PARA EL ÁREA DE PÓLIZAS***
         public OdbcDataReader ConsultaLogicaNominas(string dias)
         {
@@ -60,7 +146,7 @@ namespace CapaLogica_RRHH
             dtaTipoPoliza.Fill(tableTipoPoliza);
             return tableTipoPoliza;
         }
-  
+
         public OdbcCommand LogicaInsertarEncabezadoPoliza(string tipoPoliza, string docAsociado, string descripcion, string total)
         {
             return sn.InsertarEncabezadoPoliza(tipoPoliza, docAsociado, descripcion, total);

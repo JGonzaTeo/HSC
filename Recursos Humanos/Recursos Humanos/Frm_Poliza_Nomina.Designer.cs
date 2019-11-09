@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Btn_minimizar = new System.Windows.Forms.Button();
-            this.Btn_salir = new System.Windows.Forms.Button();
             this.Lbl_titulo = new System.Windows.Forms.Label();
             this.Grpbx_encabezadoNomina = new System.Windows.Forms.GroupBox();
             this.Cmbx_tipoPoliza = new System.Windows.Forms.ComboBox();
@@ -54,8 +52,10 @@
             this.Lbl_codigoCuenta = new System.Windows.Forms.Label();
             this.Btn_eliminarCuenta = new System.Windows.Forms.Button();
             this.Btn_aceptar = new System.Windows.Forms.Button();
-            this.Btn_consultaNomina = new System.Windows.Forms.Button();
             this.Lbl_diferencia = new System.Windows.Forms.Label();
+            this.Btn_consultaNomina = new System.Windows.Forms.Button();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
+            this.Btn_salir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.Grpbx_encabezadoNomina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detallePoliza)).BeginInit();
@@ -73,30 +73,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1000, 52);
             this.panel1.TabIndex = 0;
-            // 
-            // Btn_minimizar
-            // 
-            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
-            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
-            this.Btn_minimizar.Location = new System.Drawing.Point(830, 10);
-            this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
-            this.Btn_minimizar.TabIndex = 1;
-            this.Btn_minimizar.UseVisualStyleBackColor = true;
-            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
-            // 
-            // Btn_salir
-            // 
-            this.Btn_salir.FlatAppearance.BorderSize = 0;
-            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
-            this.Btn_salir.Location = new System.Drawing.Point(916, 10);
-            this.Btn_salir.Name = "Btn_salir";
-            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
-            this.Btn_salir.TabIndex = 2;
-            this.Btn_salir.UseVisualStyleBackColor = true;
-            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
             // 
             // Lbl_titulo
             // 
@@ -312,25 +288,13 @@
             // 
             this.Btn_aceptar.FlatAppearance.BorderSize = 0;
             this.Btn_aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_aceptar.Image = global::Recursos_Humanos.Properties.Resources.aprobar_35;
+            this.Btn_aceptar.Image = global::Recursos_Humanos.Properties.Resources.icons8_aprobación_35;
             this.Btn_aceptar.Location = new System.Drawing.Point(0, 107);
             this.Btn_aceptar.Name = "Btn_aceptar";
             this.Btn_aceptar.Size = new System.Drawing.Size(40, 40);
             this.Btn_aceptar.TabIndex = 10;
             this.Btn_aceptar.UseVisualStyleBackColor = true;
             this.Btn_aceptar.Click += new System.EventHandler(this.Btn_aceptar_Click);
-            // 
-            // Btn_consultaNomina
-            // 
-            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
-            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.icons8_transferencia_de_dinero_45;
-            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
-            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
-            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
-            this.Btn_consultaNomina.TabIndex = 1;
-            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
-            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
             // 
             // Lbl_diferencia
             // 
@@ -340,6 +304,42 @@
             this.Lbl_diferencia.Name = "Lbl_diferencia";
             this.Lbl_diferencia.Size = new System.Drawing.Size(0, 21);
             this.Lbl_diferencia.TabIndex = 13;
+            // 
+            // Btn_consultaNomina
+            // 
+            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
+            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.icons8_transferencia_de_dinero_35;
+            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
+            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
+            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
+            this.Btn_consultaNomina.TabIndex = 1;
+            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
+            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
+            // 
+            // Btn_minimizar
+            // 
+            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
+            this.Btn_minimizar.Location = new System.Drawing.Point(830, 10);
+            this.Btn_minimizar.Name = "Btn_minimizar";
+            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
+            this.Btn_minimizar.TabIndex = 1;
+            this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
+            // 
+            // Btn_salir
+            // 
+            this.Btn_salir.FlatAppearance.BorderSize = 0;
+            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
+            this.Btn_salir.Location = new System.Drawing.Point(916, 10);
+            this.Btn_salir.Name = "Btn_salir";
+            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
+            this.Btn_salir.TabIndex = 2;
+            this.Btn_salir.UseVisualStyleBackColor = true;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
             // 
             // Frm_Poliza_Nomina
             // 
