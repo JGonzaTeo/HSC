@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * 
+ *      AUTOR: EDSON JUAREZ
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,6 +15,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Recursos_Humanos.Consultas;
 using CapaLogica_RRHH;
+using System.Data.Odbc;
 
 namespace Recursos_Humanos
 {
@@ -21,6 +28,7 @@ namespace Recursos_Humanos
         public static int contador_fila = 0;
         public static double totalDebe = 0;
         public static double totalHaber = 0;
+        bool cuadra = false;
         public Frm_Poliza_Nomina(string usuario)
         {
             InitializeComponent();
@@ -47,7 +55,7 @@ namespace Recursos_Humanos
 
         private void ConsultarCuentas(object sender, DataGridViewCellEventArgs e)
         {
-            Frm_consultaMostrarCuenta consultaCuentas = new Frm_consultaMostrarCuenta();
+            Frm_consultaCuenta consultaCuentas = new Frm_consultaCuenta();
             consultaCuentas.ShowDialog();
 
             if(consultaCuentas.DialogResult == DialogResult.OK)
@@ -57,15 +65,15 @@ namespace Recursos_Humanos
 
                 if(contador_fila == 0)
                 {
-                    Dgv_detallePoliza.Rows.Add(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(),
-                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[2].Value.ToString(),
-                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[4].Value.ToString(),
-                                               consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[5].Value.ToString());
+                    Dgv_detallePoliza.Rows.Add(consultaCuentas.Txt_idCuenta.Text,
+                                               consultaCuentas.Txt_nombreCuenta.Text,
+                                               consultaCuentas.Txt_debe.Text,
+                                               consultaCuentas.Txt_haber.Text);
                     contador_fila++;
                 }
                 else
                 {
-                    Lbl_codigoCuenta.Text = consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(); 
+                    Lbl_codigoCuenta.Text = consultaCuentas.Txt_idCuenta.Text; 
                     
                     foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
                     {
@@ -89,10 +97,10 @@ namespace Recursos_Humanos
                         MessageBox.Show("Esta Cuenta ya ha sido agregada");
                     } else
                     {
-                        Dgv_detallePoliza.Rows.Add(consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[0].Value.ToString(),
-                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[2].Value.ToString(),
-                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[4].Value.ToString(),
-                                              consultaCuentas.Dgv_mostrarCuentas.Rows[consultaCuentas.Dgv_mostrarCuentas.CurrentRow.Index].Cells[5].Value.ToString());
+                        Dgv_detallePoliza.Rows.Add(consultaCuentas.Txt_idCuenta.Text,
+                                                consultaCuentas.Txt_nombreCuenta.Text,
+                                                consultaCuentas.Txt_debe.Text,
+                                                consultaCuentas.Txt_haber.Text);
                         contador_fila++;
                     }
                 }
@@ -106,6 +114,18 @@ namespace Recursos_Humanos
                 }
                 Txt_sumaDebe.Text = totalDebe.ToString();
                 Txt_sumaHaber.Text = totalHaber.ToString();
+
+                if(totalDebe != totalHaber)
+                {
+                    cuadra = false;
+                    Lbl_diferencia.ForeColor = Color.Red;
+                    Lbl_sumasIguales.Text = "DIFERENCIA DE " + (totalDebe - totalHaber);
+                }
+                else
+                {
+                    cuadra = true;
+                    Lbl_sumasIguales.Text = "";
+                }
             }
         }
 
@@ -154,6 +174,55 @@ namespace Recursos_Humanos
             {
                 MessageBox.Show("No se han agregado cuentas contables.");
             }
+        }
+
+        private void LimpiarFormulario()
+        {
+            //LIMPIEZA DEL ENCABEZADO
+            Txt_idPoliza.Text = "";
+            Cmbx_tipoPoliza.Text = "";
+            Txt_idNomina.Text = "";
+            Txt_descPoliza.Text = "";
+            //LIMPIEZA DEL DETALLE
+            Dgv_detallePoliza.Rows.Clear();
+            Txt_sumaDebe.Text = "";
+            Txt_sumaHaber.Text = "";
+            Lbl_diferencia.Text = "";
+        }
+
+        private void Btn_aceptar_Click(object sender, EventArgs e)
+        {
+            if(contador_fila != 0 && cuadra == true)
+            {
+                try
+                {
+                    string codPoliza = "";
+                    OdbcCommand insertarEncabezado = logic.LogicaInsertarEncabezadoPoliza(Cmbx_tipoPoliza.Text, Txt_idNomina.Text, Txt_descPoliza.Text, Txt_sumaDebe.Text);
+                    OdbcCommand insertarDetalle;
+                    OdbcDataReader idPoliza = logic.ConsultaLogicaIdPoliza();
+                    OdbcCommand actualizarNomina = logic.LogicaActualizarNomina(Txt_idNomina.Text);
+
+                    while (idPoliza.Read())
+                    {
+                        codPoliza = idPoliza.GetString(0);
+                    }
+
+                    foreach (DataGridViewRow Fila in Dgv_detallePoliza.Rows)
+                    {
+                        insertarDetalle = logic.LogicaInsertarDetallePoliza(codPoliza,Fila.Cells[0].Value.ToString(), Fila.Cells[2].Value.ToString(), Fila.Cells[3].Value.ToString());
+                    }
+                }
+                catch(Exception err)
+                {
+                    Console.WriteLine(err.Message);
+                }
+                LimpiarFormulario();
+            }
+            else
+            {
+                MessageBox.Show("Debe de llenar todos los datos para generar la poliza y/o deben de cuadrar las cuentas.");
+            }
+            
         }
     }
 }

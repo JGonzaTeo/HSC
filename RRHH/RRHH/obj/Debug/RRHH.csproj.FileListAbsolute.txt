@@ -159,7 +159,6 @@ C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proye
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaDiseno.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\RRHH\RRHH\bin\Debug\CapaLogica.pdb

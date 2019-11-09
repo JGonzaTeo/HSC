@@ -61,9 +61,24 @@ namespace CapaLogica_RRHH
             return tableTipoPoliza;
         }
   
-        public void AgregarCuentaContablle()
+        public OdbcCommand LogicaInsertarEncabezadoPoliza(string tipoPoliza, string docAsociado, string descripcion, string total)
         {
+            return sn.InsertarEncabezadoPoliza(tipoPoliza, docAsociado, descripcion, total);
+        }
 
+        public OdbcCommand LogicaInsertarDetallePoliza(string idPoliza, string idCuenta, string debe, string haber)
+        {
+            return sn.InsertarDetallePoliza(idPoliza, idCuenta, debe, haber); ;
+        }
+
+        public OdbcDataReader ConsultaLogicaIdPoliza()
+        {
+            return sn.ConsultaIdPoliza();
+        }
+
+        public OdbcCommand LogicaActualizarNomina(string idNomina)
+        {
+            return sn.ActualizarEstadoNomina(idNomina);
         }
 
         //   ***FIN DE LOGICA PARA EL ÁREA DE PÓLIZAS***

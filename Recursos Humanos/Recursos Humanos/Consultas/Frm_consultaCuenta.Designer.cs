@@ -193,6 +193,7 @@
             this.Btn_cancelar.TabIndex = 16;
             this.Btn_cancelar.Text = "Cancelar";
             this.Btn_cancelar.UseVisualStyleBackColor = true;
+            this.Btn_cancelar.Click += new System.EventHandler(this.Btn_cancelar_Click);
             // 
             // Frm_consultaCuenta
             // 

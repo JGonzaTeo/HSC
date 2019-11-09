@@ -197,17 +197,14 @@ C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proye
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.dll
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDiseno.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDiseno.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_RRHH.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.pdb
 C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\REPO_FINAL\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb

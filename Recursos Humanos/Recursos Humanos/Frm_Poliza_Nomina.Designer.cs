@@ -36,11 +36,10 @@
             this.Cmbx_tipoPoliza = new System.Windows.Forms.ComboBox();
             this.Txt_idNomina = new System.Windows.Forms.TextBox();
             this.Lbl_documentoAsociado = new System.Windows.Forms.Label();
-            this.Chk_aplicado = new System.Windows.Forms.CheckBox();
             this.Dtpck_fecha = new System.Windows.Forms.DateTimePicker();
             this.Lbl_fechaEmision = new System.Windows.Forms.Label();
             this.Lbl_tipoPoliza = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txt_idPoliza = new System.Windows.Forms.TextBox();
             this.Lbl_idPoliza = new System.Windows.Forms.Label();
             this.Dgv_detallePoliza = new System.Windows.Forms.DataGridView();
             this.cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,11 +50,12 @@
             this.Txt_sumaDebe = new System.Windows.Forms.TextBox();
             this.Txt_sumaHaber = new System.Windows.Forms.TextBox();
             this.Lbl_descripcion = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Btn_aceptar = new System.Windows.Forms.Button();
-            this.Btn_consultaNomina = new System.Windows.Forms.Button();
+            this.Txt_descPoliza = new System.Windows.Forms.TextBox();
             this.Lbl_codigoCuenta = new System.Windows.Forms.Label();
             this.Btn_eliminarCuenta = new System.Windows.Forms.Button();
+            this.Btn_aceptar = new System.Windows.Forms.Button();
+            this.Btn_consultaNomina = new System.Windows.Forms.Button();
+            this.Lbl_diferencia = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.Grpbx_encabezadoNomina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_detallePoliza)).BeginInit();
@@ -114,11 +114,10 @@
             this.Grpbx_encabezadoNomina.Controls.Add(this.Cmbx_tipoPoliza);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Txt_idNomina);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_documentoAsociado);
-            this.Grpbx_encabezadoNomina.Controls.Add(this.Chk_aplicado);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Dtpck_fecha);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_fechaEmision);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_tipoPoliza);
-            this.Grpbx_encabezadoNomina.Controls.Add(this.textBox1);
+            this.Grpbx_encabezadoNomina.Controls.Add(this.Txt_idPoliza);
             this.Grpbx_encabezadoNomina.Controls.Add(this.Lbl_idPoliza);
             this.Grpbx_encabezadoNomina.Location = new System.Drawing.Point(46, 56);
             this.Grpbx_encabezadoNomina.Name = "Grpbx_encabezadoNomina";
@@ -152,16 +151,6 @@
             this.Lbl_documentoAsociado.TabIndex = 8;
             this.Lbl_documentoAsociado.Text = "Documento asociado:";
             // 
-            // Chk_aplicado
-            // 
-            this.Chk_aplicado.AutoSize = true;
-            this.Chk_aplicado.Location = new System.Drawing.Point(832, 10);
-            this.Chk_aplicado.Name = "Chk_aplicado";
-            this.Chk_aplicado.Size = new System.Drawing.Size(110, 25);
-            this.Chk_aplicado.TabIndex = 7;
-            this.Chk_aplicado.Text = "Aplicada";
-            this.Chk_aplicado.UseVisualStyleBackColor = true;
-            // 
             // Dtpck_fecha
             // 
             this.Dtpck_fecha.CustomFormat = "yyyy/MM/dd";
@@ -190,13 +179,13 @@
             this.Lbl_tipoPoliza.TabIndex = 5;
             this.Lbl_tipoPoliza.Text = "Tipo de Póliza:";
             // 
-            // textBox1
+            // Txt_idPoliza
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(146, 45);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 28);
-            this.textBox1.TabIndex = 4;
+            this.Txt_idPoliza.Enabled = false;
+            this.Txt_idPoliza.Location = new System.Drawing.Point(146, 45);
+            this.Txt_idPoliza.Name = "Txt_idPoliza";
+            this.Txt_idPoliza.Size = new System.Drawing.Size(100, 28);
+            this.Txt_idPoliza.TabIndex = 4;
             // 
             // Lbl_idPoliza
             // 
@@ -290,36 +279,13 @@
             this.Lbl_descripcion.TabIndex = 8;
             this.Lbl_descripcion.Text = "Descripcion:";
             // 
-            // textBox2
+            // Txt_descPoliza
             // 
-            this.textBox2.Location = new System.Drawing.Point(18, 184);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(964, 69);
-            this.textBox2.TabIndex = 9;
-            // 
-            // Btn_aceptar
-            // 
-            this.Btn_aceptar.FlatAppearance.BorderSize = 0;
-            this.Btn_aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_aceptar.Image = global::Recursos_Humanos.Properties.Resources.aprobar_35;
-            this.Btn_aceptar.Location = new System.Drawing.Point(0, 107);
-            this.Btn_aceptar.Name = "Btn_aceptar";
-            this.Btn_aceptar.Size = new System.Drawing.Size(40, 40);
-            this.Btn_aceptar.TabIndex = 10;
-            this.Btn_aceptar.UseVisualStyleBackColor = true;
-            // 
-            // Btn_consultaNomina
-            // 
-            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
-            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.icons8_transferencia_de_dinero_45;
-            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
-            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
-            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
-            this.Btn_consultaNomina.TabIndex = 1;
-            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
-            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
+            this.Txt_descPoliza.Location = new System.Drawing.Point(18, 184);
+            this.Txt_descPoliza.Multiline = true;
+            this.Txt_descPoliza.Name = "Txt_descPoliza";
+            this.Txt_descPoliza.Size = new System.Drawing.Size(964, 69);
+            this.Txt_descPoliza.TabIndex = 9;
             // 
             // Lbl_codigoCuenta
             // 
@@ -342,15 +308,49 @@
             this.Btn_eliminarCuenta.UseVisualStyleBackColor = true;
             this.Btn_eliminarCuenta.Click += new System.EventHandler(this.Btn_eliminarCuenta_Click);
             // 
+            // Btn_aceptar
+            // 
+            this.Btn_aceptar.FlatAppearance.BorderSize = 0;
+            this.Btn_aceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_aceptar.Image = global::Recursos_Humanos.Properties.Resources.aprobar_35;
+            this.Btn_aceptar.Location = new System.Drawing.Point(0, 107);
+            this.Btn_aceptar.Name = "Btn_aceptar";
+            this.Btn_aceptar.Size = new System.Drawing.Size(40, 40);
+            this.Btn_aceptar.TabIndex = 10;
+            this.Btn_aceptar.UseVisualStyleBackColor = true;
+            this.Btn_aceptar.Click += new System.EventHandler(this.Btn_aceptar_Click);
+            // 
+            // Btn_consultaNomina
+            // 
+            this.Btn_consultaNomina.FlatAppearance.BorderSize = 0;
+            this.Btn_consultaNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_consultaNomina.Image = global::Recursos_Humanos.Properties.Resources.icons8_transferencia_de_dinero_45;
+            this.Btn_consultaNomina.Location = new System.Drawing.Point(0, 59);
+            this.Btn_consultaNomina.Name = "Btn_consultaNomina";
+            this.Btn_consultaNomina.Size = new System.Drawing.Size(40, 40);
+            this.Btn_consultaNomina.TabIndex = 1;
+            this.Btn_consultaNomina.UseVisualStyleBackColor = true;
+            this.Btn_consultaNomina.Click += new System.EventHandler(this.Btn_consultaNomina_Click);
+            // 
+            // Lbl_diferencia
+            // 
+            this.Lbl_diferencia.AutoSize = true;
+            this.Lbl_diferencia.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_diferencia.Location = new System.Drawing.Point(254, 620);
+            this.Lbl_diferencia.Name = "Lbl_diferencia";
+            this.Lbl_diferencia.Size = new System.Drawing.Size(0, 21);
+            this.Lbl_diferencia.TabIndex = 13;
+            // 
             // Frm_Poliza_Nomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.Lbl_diferencia);
             this.Controls.Add(this.Btn_eliminarCuenta);
             this.Controls.Add(this.Lbl_codigoCuenta);
             this.Controls.Add(this.Btn_aceptar);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.Txt_descPoliza);
             this.Controls.Add(this.Lbl_descripcion);
             this.Controls.Add(this.Txt_sumaHaber);
             this.Controls.Add(this.Txt_sumaDebe);
@@ -387,7 +387,7 @@
         private System.Windows.Forms.DateTimePicker Dtpck_fecha;
         private System.Windows.Forms.Label Lbl_fechaEmision;
         private System.Windows.Forms.Label Lbl_tipoPoliza;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txt_idPoliza;
         private System.Windows.Forms.Label Lbl_idPoliza;
         private System.Windows.Forms.DataGridView Dgv_detallePoliza;
         private System.Windows.Forms.DataGridViewTextBoxColumn cuenta;
@@ -397,14 +397,14 @@
         private System.Windows.Forms.Label Lbl_sumasIguales;
         private System.Windows.Forms.TextBox Txt_sumaDebe;
         private System.Windows.Forms.TextBox Txt_sumaHaber;
-        private System.Windows.Forms.CheckBox Chk_aplicado;
         private System.Windows.Forms.Label Lbl_descripcion;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Txt_descPoliza;
         private System.Windows.Forms.Button Btn_aceptar;
         private System.Windows.Forms.Label Lbl_documentoAsociado;
         private System.Windows.Forms.TextBox Txt_idNomina;
         private System.Windows.Forms.ComboBox Cmbx_tipoPoliza;
         private System.Windows.Forms.Label Lbl_codigoCuenta;
         private System.Windows.Forms.Button Btn_eliminarCuenta;
+        private System.Windows.Forms.Label Lbl_diferencia;
     }
 }

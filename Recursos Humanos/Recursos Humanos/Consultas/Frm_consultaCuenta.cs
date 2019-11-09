@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * 
+ *      AUTOR: EDSON JUAREZ
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +18,12 @@ namespace Recursos_Humanos.Consultas
 {
     public partial class Frm_consultaCuenta : Form
     {
+        ToolTip ayuda_tp = new ToolTip();
         public Frm_consultaCuenta()
         {
             InitializeComponent();
+            ayuda_tp.IsBalloon = true;
+            ayuda_tp.SetToolTip(Btn_buscar, "Consultar Cuentas");
         }
 
         private void Frm_consultaCuenta_Load(object sender, EventArgs e)
@@ -55,6 +64,11 @@ namespace Recursos_Humanos.Consultas
                 DialogResult = DialogResult.OK;
                 Close();
             }
+        }
+
+        private void Btn_cancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

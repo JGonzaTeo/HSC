@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Odbc;
 using System.Linq;
 using System.Text;
@@ -88,7 +89,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cnx.probarConexion();
-                string consultaNominas = "SELECT KidNomina, KidEmpleado_Contable, fecha_de_emision, sueldo_liquido FROM tbl_nominasencabezado WHERE fecha_de_emision BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE();";
+                string consultaNominas = "SELECT KidNomina, KidEmpleado_Contable, fecha_de_emision, sueldo_liquido FROM tbl_nominasencabezado WHERE fecha_de_emision BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
                 comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
                 OdbcDataReader mostrarNominas = comm.ExecuteReader();
                 return mostrarNominas;
@@ -148,8 +149,83 @@ namespace CapaDatos_RRHH
                 Console.WriteLine(err.Message);
                 return null;
             }
-            //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+            
         }
+
+        public OdbcCommand InsertarEncabezadoPoliza(string tipoPoliza, string docAsociado, string descripcion, string total)
+        {
+            try
+            {
+                OdbcCommand comm = new OdbcCommand("{call procedimientoInsertarEncabezadoPoliza(?,?,?,?)}", cnx.probarConexion());
+                comm.CommandType = CommandType.StoredProcedure;
+                comm.Parameters.Add("idTipoPoliza", OdbcType.Text).Value = tipoPoliza;
+                comm.Parameters.Add("idDocAsociado", OdbcType.Text).Value = docAsociado;
+                comm.Parameters.Add("descripcion", OdbcType.Text).Value = descripcion;
+                comm.Parameters.Add("total", OdbcType.Text).Value = total;
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch(Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcCommand InsertarDetallePoliza(string idPoliza, string idCuenta, string debe, string haber)
+        {
+            try
+            {
+                OdbcCommand comm = new OdbcCommand("{call procedimientoInsertarDetallePoliza(?,?,?,?)}", cnx.probarConexion());
+                comm.CommandType = CommandType.StoredProcedure;
+                comm.Parameters.Add("idPoliza", OdbcType.Text).Value = idPoliza;
+                comm.Parameters.Add("idCuenta", OdbcType.Text).Value = idCuenta;
+                comm.Parameters.Add("debe", OdbcType.Text).Value = debe;
+                comm.Parameters.Add("haber", OdbcType.Text).Value = haber;
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch(Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaIdPoliza()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaPoliza = "SELECT MAX(KidPoliza) FROM tbl_poliza_encabezado";
+                comm = new OdbcCommand(consultaPoliza, cnx.probarConexion());
+                OdbcDataReader mostrarIdPoliza = comm.ExecuteReader();
+                return mostrarIdPoliza;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcCommand ActualizarEstadoNomina(string idNomina)
+        {
+            try
+            {
+                string consultaActualizarNomina = "UPDATE tbl_nominasencabezado SET estado = 0 WHERE KidNomina = " + idNomina + ";";
+                OdbcCommand comm = new OdbcCommand(consultaActualizarNomina, cnx.probarConexion());
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch(Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
     }
 
 
