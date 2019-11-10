@@ -51,6 +51,7 @@
             this.controlDeAsistenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.integracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.solicitudDeEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.preToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -233,7 +234,8 @@
             // integracionToolStripMenuItem
             // 
             this.integracionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.solicitudDeEmpleadoToolStripMenuItem});
+            this.solicitudDeEmpleadoToolStripMenuItem,
+            this.preToolStripMenuItem});
             this.integracionToolStripMenuItem.Name = "integracionToolStripMenuItem";
             this.integracionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.integracionToolStripMenuItem.Text = "Integracion";
@@ -241,9 +243,16 @@
             // solicitudDeEmpleadoToolStripMenuItem
             // 
             this.solicitudDeEmpleadoToolStripMenuItem.Name = "solicitudDeEmpleadoToolStripMenuItem";
-            this.solicitudDeEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(243, 26);
-            this.solicitudDeEmpleadoToolStripMenuItem.Text = "Solicitud de empleado";
+            this.solicitudDeEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.solicitudDeEmpleadoToolStripMenuItem.Text = "Solicitud de Empleado";
             this.solicitudDeEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.SolicitudDeEmpleadoToolStripMenuItem_Click);
+            // 
+            // preToolStripMenuItem
+            // 
+            this.preToolStripMenuItem.Name = "preToolStripMenuItem";
+            this.preToolStripMenuItem.Size = new System.Drawing.Size(267, 26);
+            this.preToolStripMenuItem.Text = "Preseleccion de Empleado";
+            this.preToolStripMenuItem.Click += new System.EventHandler(this.PreToolStripMenuItem_Click);
             // 
             // reportesToolStripMenuItem
             // 
@@ -342,6 +351,7 @@
         private System.Windows.Forms.ToolStripMenuItem perfilProfesionalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mediosComunicacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem curriculumsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem preToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
     }
 }

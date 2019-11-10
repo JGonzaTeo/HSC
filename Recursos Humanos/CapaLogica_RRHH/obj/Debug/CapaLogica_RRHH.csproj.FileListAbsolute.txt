@@ -43,12 +43,12 @@ C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaLogica_RRHH\obj\Debug\Ca
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csproj.CopyComplete
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.dll
 C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csprojAssemblyReference.cache
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csproj.CoreCompileInputs.cache
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaLogica_RRHH.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaLogica_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaDatos_RRHH.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaDatos_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csproj.CopyComplete
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaLogica_RRHH\obj\Debug\CapaLogica_RRHH.csproj.CopyComplete

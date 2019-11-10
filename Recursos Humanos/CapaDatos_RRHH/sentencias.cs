@@ -369,7 +369,8 @@ namespace CapaDatos_RRHH
             }
         }
         /*fin insertar*/
-        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
+
+
 
         Conexion cnx = new Conexion();
 
@@ -519,11 +520,80 @@ namespace CapaDatos_RRHH
 
 
 
+    
+
+    /*CONSULTA PRESELECCION*/
+    public OdbcDataReader ConsultaSeleccionFiltro(string id)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "select kidCurriculum, nombre, apellido, numero, direccion, correo_electronico from tbl_curriculums where kidReporteVacante =" + id + ";";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaSeleccionComparacion(string id)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = " select primaria, secundaria, bachillerato, estudiante_universitario, graduadoU, cursoExtra, sueldo_Base from tbl_detallereportevacante where KidReporteVacante = " + id + ";";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaSeleccionComparacionAceptados(string id)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = " select  primaria, secundaria, bachillerato, estudiante_universitario, graduadoU, cursoExtra, sueldoesperado, KidCurriculum, Nombre, apellido from tbl_curriculums where kidReporteVacante =" + id + ";";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN CONSULTA PRESELECCION*/
+
+        /*INSERTAR BANCO*/
+        public OdbcDataReader InsertarBanco(string codCurri)
+        {
+            try
+            {
+                cn.probarConexion();
+                string consulta = "insert into tbl_bancotalento values (0," + codCurri+ ", 1);";
+                comm = new OdbcCommand(consulta, cn.probarConexion());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+        /*FIN INSERTAR BANCO*/
+        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
     }
-
-
-
-
-
 }
 
