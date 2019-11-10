@@ -36,12 +36,12 @@
             this.Txt_nombreCuenta = new System.Windows.Forms.TextBox();
             this.Btn_buscar = new System.Windows.Forms.Button();
             this.Dgv_mostrarCuentas = new System.Windows.Forms.DataGridView();
-            this.Btn_seleccionar = new System.Windows.Forms.Button();
-            this.Btn_actualizar = new System.Windows.Forms.Button();
             this.idCuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoCuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Btn_seleccionar = new System.Windows.Forms.Button();
+            this.Btn_actualizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_mostrarCuentas)).BeginInit();
             this.SuspendLayout();
@@ -144,6 +144,30 @@
             this.Dgv_mostrarCuentas.Size = new System.Drawing.Size(812, 376);
             this.Dgv_mostrarCuentas.TabIndex = 12;
             // 
+            // idCuenta
+            // 
+            this.idCuenta.HeaderText = "Cuenta";
+            this.idCuenta.MinimumWidth = 6;
+            this.idCuenta.Name = "idCuenta";
+            // 
+            // tipoCuenta
+            // 
+            this.tipoCuenta.HeaderText = "Tipo";
+            this.tipoCuenta.MinimumWidth = 6;
+            this.tipoCuenta.Name = "tipoCuenta";
+            // 
+            // nombre
+            // 
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.MinimumWidth = 6;
+            this.nombre.Name = "nombre";
+            // 
+            // descripcion
+            // 
+            this.descripcion.HeaderText = "Descripcion";
+            this.descripcion.MinimumWidth = 6;
+            this.descripcion.Name = "descripcion";
+            // 
             // Btn_seleccionar
             // 
             this.Btn_seleccionar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
@@ -169,30 +193,6 @@
             this.Btn_actualizar.Text = "Actualizar";
             this.Btn_actualizar.UseVisualStyleBackColor = true;
             this.Btn_actualizar.Click += new System.EventHandler(this.Btn_actualizar_Click);
-            // 
-            // idCuenta
-            // 
-            this.idCuenta.HeaderText = "Cuenta";
-            this.idCuenta.MinimumWidth = 6;
-            this.idCuenta.Name = "idCuenta";
-            // 
-            // tipoCuenta
-            // 
-            this.tipoCuenta.HeaderText = "Tipo";
-            this.tipoCuenta.MinimumWidth = 6;
-            this.tipoCuenta.Name = "tipoCuenta";
-            // 
-            // nombre
-            // 
-            this.nombre.HeaderText = "Nombre";
-            this.nombre.MinimumWidth = 6;
-            this.nombre.Name = "nombre";
-            // 
-            // descripcion
-            // 
-            this.descripcion.HeaderText = "Descripcion";
-            this.descripcion.MinimumWidth = 6;
-            this.descripcion.Name = "descripcion";
             // 
             // Frm_consultaMostrarCuenta
             // 

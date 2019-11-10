@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Btn_minimizar = new System.Windows.Forms.Button();
+            this.Btn_salir = new System.Windows.Forms.Button();
             this.Lbl_titulo = new System.Windows.Forms.Label();
             this.Lbl_cuenta = new System.Windows.Forms.Label();
             this.Lbl_nombre = new System.Windows.Forms.Label();
             this.Lbl_debe = new System.Windows.Forms.Label();
             this.Lbl_haber = new System.Windows.Forms.Label();
-            this.Btn_salir = new System.Windows.Forms.Button();
-            this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Txt_idCuenta = new System.Windows.Forms.TextBox();
             this.Txt_nombreCuenta = new System.Windows.Forms.TextBox();
             this.Btn_buscar = new System.Windows.Forms.Button();
@@ -57,6 +57,30 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 52);
             this.panel1.TabIndex = 0;
+            // 
+            // Btn_minimizar
+            // 
+            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
+            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
+            this.Btn_minimizar.Location = new System.Drawing.Point(634, 8);
+            this.Btn_minimizar.Name = "Btn_minimizar";
+            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
+            this.Btn_minimizar.TabIndex = 5;
+            this.Btn_minimizar.UseVisualStyleBackColor = true;
+            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
+            // 
+            // Btn_salir
+            // 
+            this.Btn_salir.FlatAppearance.BorderSize = 0;
+            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
+            this.Btn_salir.Location = new System.Drawing.Point(720, 8);
+            this.Btn_salir.Name = "Btn_salir";
+            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
+            this.Btn_salir.TabIndex = 5;
+            this.Btn_salir.UseVisualStyleBackColor = true;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
             // 
             // Lbl_titulo
             // 
@@ -105,30 +129,6 @@
             this.Lbl_haber.TabIndex = 4;
             this.Lbl_haber.Text = "Haber:";
             // 
-            // Btn_salir
-            // 
-            this.Btn_salir.FlatAppearance.BorderSize = 0;
-            this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_salir.Image = global::Recursos_Humanos.Properties.Resources.icons8_cerrar_ventana_35;
-            this.Btn_salir.Location = new System.Drawing.Point(720, 8);
-            this.Btn_salir.Name = "Btn_salir";
-            this.Btn_salir.Size = new System.Drawing.Size(40, 40);
-            this.Btn_salir.TabIndex = 5;
-            this.Btn_salir.UseVisualStyleBackColor = true;
-            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
-            // 
-            // Btn_minimizar
-            // 
-            this.Btn_minimizar.FlatAppearance.BorderSize = 0;
-            this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_minimizar.Image = global::Recursos_Humanos.Properties.Resources.icons8_minimizar_la_ventana_35;
-            this.Btn_minimizar.Location = new System.Drawing.Point(634, 8);
-            this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(40, 40);
-            this.Btn_minimizar.TabIndex = 5;
-            this.Btn_minimizar.UseVisualStyleBackColor = true;
-            this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
-            // 
             // Txt_idCuenta
             // 
             this.Txt_idCuenta.Location = new System.Drawing.Point(264, 116);
@@ -147,7 +147,7 @@
             // 
             this.Btn_buscar.FlatAppearance.BorderSize = 0;
             this.Btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_buscar.Image = global::Recursos_Humanos.Properties.Resources.icons8_búsqueda_351;
+            this.Btn_buscar.Image = global::Recursos_Humanos.Properties.Resources.icons8_búsqueda_35;
             this.Btn_buscar.Location = new System.Drawing.Point(552, 113);
             this.Btn_buscar.Name = "Btn_buscar";
             this.Btn_buscar.Size = new System.Drawing.Size(40, 40);
@@ -214,7 +214,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_consultaCuenta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_consultaCuenta";

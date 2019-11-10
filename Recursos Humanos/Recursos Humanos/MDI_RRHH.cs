@@ -375,7 +375,10 @@ namespace Recursos_Humanos
 
         bool ventanaResultado = false;
         Frm_ResultadoBT resultado = new Frm_ResultadoBT("");
-        private void ResultadosBIToolStripMenuItem_Click(object sender, EventArgs e)
+
+        
+
+        private void ResultadosBTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ResultadoBT);
             if (ventanaResultado == false || frmC == null)
@@ -396,9 +399,152 @@ namespace Recursos_Humanos
             }
         }
 
+
+        private void DesempeñoEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_DesempeñoEmpleado desempeño = new Frm_DesempeñoEmpleado("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_DesempeñoEmpleado);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_DesempeñoEmpleado(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        
+        private void ControlDeAsistenciasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_ControlAsistencias desempeño = new Frm_ControlAsistencias("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_ControlAsistencias);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_ControlAsistencias(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        private void SolicitudDeEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool ventanaDesempeño = false;
+            Frm_SolicitudEmpleado desempeño = new Frm_SolicitudEmpleado("");
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_SolicitudEmpleado);
+            if (ventanaDesempeño == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    desempeño = new Frm_SolicitudEmpleado(sUsuario);
+                }
+
+                desempeño.MdiParent = this;
+                desempeño.Show();
+                Application.DoEvents();
+                ventanaDesempeño = true;
+            }
+            else
+            {
+                desempeño.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaPerfil = false;
+        Frm_mantPerfil_Profesional perfil = new Frm_mantPerfil_Profesional("");
+        private void PerfilProfesionalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantPerfil_Profesional);
+            if (ventanaPerfil == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    perfil = new Frm_mantPerfil_Profesional(sUsuario);
+                }
+
+                perfil.MdiParent = this;
+                perfil.Show();
+                Application.DoEvents();
+                ventanaPerfil = true;
+            }
+            else
+            {
+                perfil.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaMedios = false;
+        Frm_mantMedios_Comunicacion medios = new Frm_mantMedios_Comunicacion("");
+        private void MediosComunicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantMedios_Comunicacion);
+            if (ventanaMedios == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    medios = new Frm_mantMedios_Comunicacion(sUsuario);
+                }
+
+                medios.MdiParent = this;
+                medios.Show();
+                Application.DoEvents();
+                ventanaMedios = true;
+            }
+            else
+            {
+                medios.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaCurriculum = false;
+        Frm_mantCurriculum curriculum = new Frm_mantCurriculum("");
+        private void CurriculumsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantCurriculum);
+            if (ventanaCurriculum == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    curriculum = new Frm_mantCurriculum(sUsuario);
+                }
+
+                curriculum.MdiParent = this;
+                curriculum.Show();
+                Application.DoEvents();
+                ventanaCurriculum = true;
+            }
+            else
+            {
+                curriculum.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
         bool ventanaPolizaNomina = false;
         Frm_Poliza_Nomina polizaNomina = new Frm_Poliza_Nomina("");
-        private void PolizasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void PolizaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Poliza_Nomina);
             if (ventanaPolizaNomina == false || frmC == null)

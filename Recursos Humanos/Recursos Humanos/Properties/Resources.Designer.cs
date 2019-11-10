@@ -63,9 +63,9 @@ namespace Recursos_Humanos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap aprobar_35 {
+        internal static System.Drawing.Bitmap icons8_aprobación_35 {
             get {
-                object obj = ResourceManager.GetObject("aprobar-35", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-aprobación-35", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,29 +123,9 @@ namespace Recursos_Humanos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_transferencia_de_dinero_45 {
+        internal static System.Drawing.Bitmap lupa {
             get {
-                object obj = ResourceManager.GetObject("icons8-transferencia-de-dinero-45", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap nomina_35 {
-            get {
-                object obj = ResourceManager.GetObject("nomina-35", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap nomina_351 {
-            get {
-                object obj = ResourceManager.GetObject("nomina-351", resourceCulture);
+                object obj = ResourceManager.GetObject("lupa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
