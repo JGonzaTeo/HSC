@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaLogica_RRHH;
 using System.Data.Odbc;
+using static Recursos_Humanos.Form1;
 
 namespace Recursos_Humanos.Consultas
 {
@@ -92,6 +93,11 @@ namespace Recursos_Humanos.Consultas
             {
                 Console.WriteLine(err.Message);
             }
+        }
+
+        private void Txt_nombreEmpleado_KeyUp(object sender, KeyEventArgs e)
+        {
+            Funciones.ValidarCampoEntero((TextBox)sender);
         }
     }
 }
