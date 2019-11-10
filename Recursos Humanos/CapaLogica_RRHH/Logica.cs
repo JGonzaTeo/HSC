@@ -122,7 +122,7 @@ namespace CapaLogica_RRHH
         {   //(string cod, string primaria, string secundaria, string bachi, string eU, string gU, string cE, string dC, string sueldo)
             return sn.InsertarReporDetalle(cod, primaria,secundaria, bachi, eU, gU, cE, dC, sueldo);
         }
-
+        /*FIN INSERT*/
         //   ***LOGICA PARA EL ÁREA DE PÓLIZAS***
         public OdbcDataReader ConsultaLogicaNominas(string dias)
         {
@@ -168,5 +168,72 @@ namespace CapaLogica_RRHH
         }
 
         //   ***FIN DE LOGICA PARA EL ÁREA DE PÓLIZAS***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public OdbcDataReader ConsultaLogicaPreseleccionFiltro(string id)
+        {
+            return sn.ConsultaSeleccionFiltro(id);
+        }
+
+        public OdbcDataReader ConsultaLogicaPreseleccionComparacion(string id)
+        {
+            return sn.ConsultaSeleccionComparacion(id);
+        }
+
+        public OdbcDataReader ConsultaSeleccionComparacionAceptados(string id)
+        {
+            return sn.ConsultaSeleccionComparacionAceptados(id);
+        }
+
+        /*INSERTAR BANCO*/
+        public OdbcDataReader InsertarBanco(string codCurri)
+        {
+            return sn.InsertarBanco(codCurri);
+        }
+        /*FIN DE INSERTAR BANCO*/
     }
 }

@@ -180,6 +180,7 @@
             this.Txt_nombreEmpleado.Name = "Txt_nombreEmpleado";
             this.Txt_nombreEmpleado.Size = new System.Drawing.Size(416, 23);
             this.Txt_nombreEmpleado.TabIndex = 16;
+            this.Txt_nombreEmpleado.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Txt_nombreEmpleado_KeyUp);
             // 
             // Lbl_nombreCuenta
             // 

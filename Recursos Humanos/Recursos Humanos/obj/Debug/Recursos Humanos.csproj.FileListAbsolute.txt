@@ -149,7 +149,6 @@ C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.pdb
-C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_capacitaciones.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_nominas.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ResultadoBT.resources
@@ -262,54 +261,62 @@ C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCreador.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCuenta.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaMedio.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaMostrarCuenta.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaNomina.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaPerfil.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaReporteVacante.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_capacitaciones.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ControlAsistencias.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_DesempeñoEmpleado.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_nominas.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_Poliza_Nomina.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ResultadoBT.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_SolicitudEmpleado.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantAreas.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantConceptos.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantDepartamento.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantEmpleado.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPruebas.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPuesto.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantRolespago.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.MDI_RRHH.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Properties.Resources.resources
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.GenerateResource.cache
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CoreCompileInputs.cache
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\Recursos Humanos.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\Recursos Humanos.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDiseno.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_RRHH.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.dll
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDiseno.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.pdb
-C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Union poliza integracion\HSC-master\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCreador.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaCuenta.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaMedio.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaMostrarCuenta.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaNomina.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaPerfil.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Consultas.Frm_consultaReporteVacante.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_capacitaciones.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ControlAsistencias.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_DesempeñoEmpleado.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_nominas.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_Poliza_Nomina.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ResultadoBT.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_SolicitudEmpleado.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantAreas.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantConceptos.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantDepartamento.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantEmpleado.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPruebas.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPuesto.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantRolespago.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.MDI_RRHH.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Properties.Resources.resources
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.GenerateResource.cache
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\Recursos Humanos.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\Recursos Humanos.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDiseno.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDiseno.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeLogica.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\Edson Juarez\Desktop\P I\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csproj.CopyComplete

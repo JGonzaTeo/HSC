@@ -115,6 +115,12 @@
     <Compile Include="Frm_DesempeñoEmpleado.Designer.cs">
       <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_filtroPreSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_filtroPreSeleccion.Designer.cs">
+      <DependentUpon>Frm_filtroPreSeleccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_nominas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,12 @@
     </Compile>
     <Compile Include="Frm_Poliza_Nomina.Designer.cs">
       <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_preSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_preSeleccion.Designer.cs">
+      <DependentUpon>Frm_preSeleccion.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ResultadoBT.cs">
       <SubType>Form</SubType>
@@ -246,11 +258,17 @@
     <EmbeddedResource Include="Frm_DesempeñoEmpleado.resx">
       <DependentUpon>Frm_DesempeñoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_filtroPreSeleccion.resx">
+      <DependentUpon>Frm_filtroPreSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_nominas.resx">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Poliza_Nomina.resx">
       <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_preSeleccion.resx">
+      <DependentUpon>Frm_preSeleccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ResultadoBT.resx">
       <DependentUpon>Frm_ResultadoBT.cs</DependentUpon>
@@ -304,6 +322,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guardar-50.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-búsqueda-35.png" />
