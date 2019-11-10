@@ -149,7 +149,6 @@ C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDeDatos.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaLogica_Consultas.pdb
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\bin\Debug\CapaDatos_Consultas.pdb
-C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_capacitaciones.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_nominas.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_ResultadoBT.resources
@@ -262,3 +261,6 @@ C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantCurriculum.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantMedios_Comunicacion.resources
 C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Mantenimientos.Frm_mantPerfil_Profesional.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\Recursos Humanos\obj\Debug\Recursos Humanos.csprojAssemblyReference.cache

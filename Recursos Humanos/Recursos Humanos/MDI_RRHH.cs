@@ -541,5 +541,52 @@ namespace Recursos_Humanos
                 curriculum.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        bool ventanaPre = false;
+        Frm_preSeleccion pre = new Frm_preSeleccion("");
+        private void PreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_preSeleccion);
+            if (ventanaPre == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    pre = new Frm_preSeleccion(sUsuario);
+                }
+
+                pre.MdiParent = this;
+                pre.Show();
+                Application.DoEvents();
+                ventanaPre = true;
+            }
+            else
+            {
+                pre.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
     }
 }
