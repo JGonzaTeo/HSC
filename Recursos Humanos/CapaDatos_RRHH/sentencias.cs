@@ -50,7 +50,7 @@ namespace CapaDatos_RRHH
             {
                 cn.probarConexion();
                 //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
-                string consultaResultados = "SELECT nombre_candidato,apellido_candidato,correoelectronico FROM tbl_bancotalento where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "SELECT c.nombre,c.apellido,c.correo_electronico FROM tbl_bancotalento b inner join tbl_curriculums c on b.KidCurriculum = c.KidCurriculum where c.KidCurriculum = " + cod + ";";
                 comm = new OdbcCommand(consultaResultados, cn.probarConexion());
                 OdbcDataReader mostrarResultados = comm.ExecuteReader();
                 return mostrarResultados;
@@ -68,7 +68,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cn.probarConexion();
-                string consultaGra = "Select p.nombre, r.Resultado From tbl_pruebas p inner join tbl_resultados r on p.KidPruebas = r.KidPruebas inner join tbl_bancotalento on r.KidBancoTalento = " + cod + ";";
+                string consultaGra = "Select p.nombre,r.Resultado From tbl_pruebas p inner join tbl_resultados r on p.KidPruebas = r.KidPruebas inner join tbl_bancotalento b on r.KidBancoTalento = b.KidBancoTalento inner join tbl_curriculums c on c.KidCurriculum = " + cod + ";";
                 ;
                 OdbcDataAdapter dataGrafica = new OdbcDataAdapter(consultaGra, cn.probarConexion());
                 return dataGrafica;

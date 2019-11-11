@@ -80,7 +80,7 @@ namespace Recursos_Humanos
 
         private void Txt_nom_KeyUp(object sender, KeyEventArgs e)
         {
-            Funciones.ValidarCampoEntero((TextBox)sender);
+           
         }
 
         private void Btn_guardar_Click(object sender, EventArgs e)
