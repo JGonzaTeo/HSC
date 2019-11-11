@@ -31,6 +31,7 @@
             this.navegador1 = new CapaDeDiseno.Navegador();
             this.Txt_Sig = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // navegador1
@@ -64,11 +65,23 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Siguiente Codigo:";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(589, 315);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(138, 33);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "APLICA A:";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // Frm_mantConceptos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1648, 813);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Txt_Sig);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.navegador1);
@@ -87,5 +100,6 @@
         private CapaDeDiseno.Navegador navegador1;
         private System.Windows.Forms.TextBox Txt_Sig;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

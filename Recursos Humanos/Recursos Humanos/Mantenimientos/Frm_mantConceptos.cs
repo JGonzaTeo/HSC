@@ -36,6 +36,7 @@ namespace Recursos_Humanos.Mantenimientos
             Txt_Sig.Text = scampo;
             Txt_Sig.Enabled = false;
             ayuda_tp.IsBalloon = true;
+            
         }
 
         private void Frm_mantConceptos_Load(object sender, EventArgs e)
@@ -57,6 +58,15 @@ namespace Recursos_Humanos.Mantenimientos
         private void Navegador1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            
+            Frm_ConceptoEmpleado conemp = new Frm_ConceptoEmpleado();
+            //conemp.varf2 = KidConcepto.Text;         
+            conemp.Show();
+            
         }
     }
 }
