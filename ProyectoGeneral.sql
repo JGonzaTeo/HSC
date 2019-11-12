@@ -66,6 +66,7 @@ CREATE TABLE IF NOT EXISTS `proyectogeneral`.`Tbl_Habitaciones` (
   `KidCategoria` VARCHAR(45) NULL,
   `precio` INT NULL,
   `estado` TINYINT(1) NULL,
+  `disponibilidad` INT,
   PRIMARY KEY (`KidNumeroHabitacion`),
   CONSTRAINT `tipoHabitacion`
     FOREIGN KEY (`KidTipoHabitacion`)
@@ -182,9 +183,9 @@ DROP TABLE IF EXISTS `tbl_conceptos`;
 CREATE TABLE `tbl_conceptos` (
   `KidConcepto` int(11) NOT NULL,
   `nombre` varchar(45) DEFAULT NULL,
-  `Debe-Haber` TINYINT(1) DEFAULT NULL,
+  `debe_haber` tinyint(2) DEFAULT NULL,
   `valor` float DEFAULT NULL,
-  `estado` tinyint DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
   PRIMARY KEY (`KidConcepto`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -518,7 +519,7 @@ ENGINE = InnoDB;
 -- Table `proyectogeneral`.`Tbl_Check_In`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `proyectogeneral`.`Tbl_Check_In` (
-  `KidCheckIn` INT NOT NULL,
+  `KidCheckIn` INT NOT NULL AUTO_INCREMENT,
   `KidCliente` INT NOT NULL,
   `KidEmpleado` INT NOT NULL,
   `fecha` DATE NULL,
@@ -836,10 +837,10 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `proyectogeneral`.`tbl_tiposcomprobantes`
+-- Table `proyectogeneral`.`tbl_tipomovimiento`
 -- -----------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS `proyectogeneral`.`tbl_tiposcomprobantes`(
+CREATE TABLE IF NOT EXISTS `proyectogeneral`.`tbl_tipomovimiento`(
   KidtiposComprobantes INT NOT NULL,
   NombreComprobante VARCHAR(45),
   detalle VARCHAR(255),
@@ -1070,6 +1071,7 @@ CREATE TABLE IF NOT EXISTS `proyectogeneral`.`tbl_EncabezadoComprobante`(
   Centro VARCHAR(45),
   fechaVencimiento DATE,
   Periodo INT,
+  accion VARCHAR(45),
   estado TINYINT(1),
   PRIMARY KEY(KidEncabezadoComprobante),
   CONSTRAINT `FK_cliente_encabezadoComprobante`
@@ -1080,7 +1082,7 @@ CREATE TABLE IF NOT EXISTS `proyectogeneral`.`tbl_EncabezadoComprobante`(
   REFERENCES `proyectogeneral`.`tbl_empleado`(`KidEmpleado`),
   CONSTRAINT `FK_tipoComprobante_encabezadoComprobante`
   FOREIGN KEY(`KidtiposComprobantes`)
-  REFERENCES `proyectogeneral`.`tbl_tiposcomprobantes`(`KidtiposComprobantes`),
+  REFERENCES `proyectogeneral`.`tbl_tipomovimiento`(`KidtiposComprobantes`),
   CONSTRAINT `FK_FacturaEncabezado_EncabezadoComprobante`
     FOREIGN KEY (`KidFacturaEncabezado`)
     REFERENCES `proyectogeneral`.`Tbl_FacturaEncabezado` (`KidFacturaEncabezado`)
@@ -2164,27 +2166,20 @@ CREATE TABLE IF NOT EXISTS Tbl_Resultados(
 );
 
 
-CREATE TABLE IF NOT EXISTS tbl_empcontable(
-	Linea INT AUTO_INCREMENT,
-    KidEmpleado_Contable INT,
-    KidEmpleado INT,
-    Nombre_Concepto VARCHAR(45),
-    PRIMARY KEY(Linea, KidEmpleado_Contable)
-)ENGINE = InnoDB;
 
-
-CREATE TABLE IF NOT EXISTS `tbl_nominasencabezado` (
+CREATE TABLE `tbl_nominasencabezado` (
   `KidNomina` int(11) NOT NULL,
-  `KidEmpleado_Contable` int NOT NULL,
-  `dias_laburado` int(11) DEFAULT NULL,
-  `fecha_de_emision` date DEFAULT NULL,
-  `sueldo_liquido` double DEFAULT NULL,
-  `sueldo_bruto` DOUBLE DEFAULT NULL,
-  `sueldo_extra` DOUBLE DEFAULT NULL,
-  `sueldo_base` DOUBLE DEFAULT NULL,
-  `periodo_nomina` VARCHAR(45) DEFAULT NULL,
-  PRIMARY KEY (`KidNomina`,`KidEmpleado_Contable`)
-) ENGINE=InnoDB;
+  `KidEmpleado` int(11) NOT NULL,
+  `observaciones` varchar(45) DEFAULT NULL,
+  `totalnominal` float DEFAULT NULL,
+  `fecha` date DEFAULT NULL,
+  `periodo_inicial`  date DEFAULT NULL,
+  `periodo_final`  date DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`KidNomina`),
+  KEY `fk_Tbl_nominasEncabezado_Tbl_empleado1_idx` (`KidEmpleado`),
+  CONSTRAINT `fk_Tbl_nominasEncabezado_Tbl_empleado1` FOREIGN KEY (`KidEmpleado`) REFERENCES `tbl_empleado` (`KidEmpleado`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Table structure for table `tbl_nominasdetalle`
@@ -2194,12 +2189,12 @@ DROP TABLE IF EXISTS `tbl_nominasdetalle`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `tbl_nominasdetalle` (
-  `KidLinea` int(11) NOT NULL,
+  `KidLinea` int(11)  NOT NULL AUTO_INCREMENT,
   `KidNomina` int(11) NOT NULL,
-  `KidConcepto` int(11) DEFAULT NULL,
-  `Subtotal` DOUBLE,
+  `sueldo_bruto` float DEFAULT NULL,
+  `sueldo_liquido` float DEFAULT NULL,
   PRIMARY KEY (`KidLinea`,`KidNomina`),
-  CONSTRAINT `fk_Tbl_nominasDetalle_Tbl_conceptos1` FOREIGN KEY (`KidConcepto`) REFERENCES `tbl_conceptos` (`KidConcepto`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  KEY `fk_Tbl_nominasDetalle_Tbl_nominasEncabezado1_idx` (`KidNomina`),
   CONSTRAINT `fk_Tbl_nominasDetalle_Tbl_nominasEncabezado1` FOREIGN KEY (`KidNomina`) REFERENCES `tbl_nominasencabezado` (`KidNomina`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -2211,6 +2206,22 @@ LOCK TABLES `tbl_nominasdetalle` WRITE;
 /*!40000 ALTER TABLE `tbl_nominasdetalle` ENABLE KEYS */;
 UNLOCK TABLES;
 
+
+CREATE TABLE `tbl_empcontable` (
+  `KidEmpContable` int(11)  NOT NULL AUTO_INCREMENT,
+  `KidEmpleado` int(11) NOT NULL,
+  `dias` int(11) DEFAULT NULL,
+  `salariobase` float DEFAULT NULL,
+  `KidConcepto` int(11) NOT NULL,
+  `total` float DEFAULT NULL,
+  `suma_resta` tinyint(2) DEFAULT NULL,
+  `sueldo_bruto` float DEFAULT NULL,
+  `sueldo_liquido` float DEFAULT NULL,
+  PRIMARY KEY (`KidEmpContable`,`KidEmpleado`),
+  KEY `fk_tbl_empcontable_Tbl_empleados_idx` (`KidEmpleado`),
+  CONSTRAINT `fk_tbl_empcontable_Tbl_empleados` FOREIGN KEY (`KidEmpleado`) REFERENCES `tbl_empleado` (`KidEmpleado`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_tbl_empcontable_Tbl_conceptos` FOREIGN KEY (`KidConcepto`) REFERENCES `tbl_conceptos` (`KidConcepto`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
 --
@@ -2688,6 +2699,33 @@ ALTER TABLE `Tbl_propiedad_Rpt` ADD CONSTRAINT `FK_Tbl_Modulo_Tbl_propiedad_Rpt`
 
 -- --------------------------- CAMBIOS ---------------------------------------------------------
 
+-- ---------------- PROCEDIMIENTOS -----------------------
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `procedimientoInsertarDetallePoliza`(IN idPoliza INT, IN idCuenta VARCHAR(15), IN debe DOUBLE, IN haber DOUBLE)
+BEGIN
+   INSERT INTO tbl_poliza_detalle VALUES(idPoliza, idCuenta, debe, haber);
+END
+DELIMITER ;
+
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `procedimientoInsertarEncabezadoPoliza`(IN idTipoPoliza VARCHAR(15), IN idDocAsociado VARCHAR(15), IN descripcion VARCHAR(100), 
+ IN total DOUBLE)
+BEGIN
+	DECLARE idPoliza INT;
+    SELECT idPoliza = MAX(KidPoliza) FROM tbl_poliza_encabezado;
+    
+    IF idPoliza = NULL
+    THEN
+		SET idPoliza = 0;
+	ELSE 
+		SET idPoliza = idPoliza+1;
+    END IF;
+    
+    INSERT INTO tbl_poliza_encabezado VALUES(idPoliza,idTipoPoliza,idDocAsociado,descripcion,CURDATE(), total, '1');
+END
+DELIMITER ;
+
+
 -- -----------------------------------------------------
 -- Table `tbl_tipo_movimiento`
 -- -----------------------------------------------------
@@ -2830,9 +2868,9 @@ CREATE TABLE IF NOT EXISTS `proyectogeneral`.`Tbl_MovimientoEncabezado` (
  REFERENCES `proyectogeneral`.`Tbl_Proveedor` (`KidProveedor`)
  ON DELETE NO ACTION
  ON UPDATE NO ACTION,
- CONSTRAINT `fk_Tbl_MovimientoEncabezado_Tbl_TipoMovimiento1`
+ CONSTRAINT `fk_Tbl_MovimientoEncabezado_Tbl_TipoMovimiento12`
  FOREIGN KEY (`KidTipoMovimiento`)
- REFERENCES `proyectogeneral`.`Tbl_TipoMovimiento` (`KidTipoMovimiento`)
+ REFERENCES `proyectogeneral`.`Tbl_TipoMovimiento` (`KidtiposComprobantes`)
  ON DELETE NO ACTION
  ON UPDATE NO ACTION,
  CONSTRAINT `fk_Tbl_MovimientoEncabezado_Tbl_Polizas1`
@@ -2945,6 +2983,23 @@ ADD COLUMN `CursoExtra` TINYINT(1) NULL AFTER `GraduadoU`,
 ADD COLUMN `DescripcionCursos` VARCHAR(100) NULL AFTER `CursoExtra`,
 ADD COLUMN `SueldoEsperado` DOUBLE NULL AFTER `Experiencia_Previa`;
 
+ALTER TABLE `proyectogeneral`.`tbl_bancotalento` 
+DROP FOREIGN KEY `FK_encabezadoReporteVacante_BancoTalento`;
+ALTER TABLE `proyectogeneral`.`tbl_bancotalento` 
+DROP COLUMN `KidReporteVacante`,
+DROP COLUMN `correoelectronico`,
+DROP COLUMN `direccion`,
+DROP COLUMN `numero`,
+DROP COLUMN `apellido_candidato`,
+DROP COLUMN `nombre_candidato`,
+ADD COLUMN `KidCurriculum` INT NOT NULL AFTER `KidBancoTalento`,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`KidBancoTalento`, `KidCurriculum`),
+DROP INDEX `FK_encabezadoReporteVacante_BancoTalento` ;
+;
+
+ALTER TABLE `proyectogeneral`.`tbl_bancotalento` 
+CHANGE COLUMN `KidBancoTalento` `KidBancoTalento` INT(11) NOT NULL AUTO_INCREMENT ;
 
 
 --

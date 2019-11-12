@@ -61,11 +61,29 @@
     <Compile Include="Consultas\Frm_consultaCreador.Designer.cs">
       <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
     </Compile>
+    <Compile Include="Consultas\Frm_consultaCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaCuenta.Designer.cs">
+      <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas\Frm_consultaMedio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Consultas\Frm_consultaMedio.Designer.cs">
       <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMostrarCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaMostrarCuenta.Designer.cs">
+      <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultaNomina.Designer.cs">
+      <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Consultas\Frm_consultaPerfil.cs">
       <SubType>Form</SubType>
@@ -84,6 +102,12 @@
     </Compile>
     <Compile Include="Frm_capacitaciones.Designer.cs">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ConceptoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ConceptoEmpleado.Designer.cs">
+      <DependentUpon>Frm_ConceptoEmpleado.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_ControlAsistencias.cs">
       <SubType>Form</SubType>
@@ -108,6 +132,12 @@
     </Compile>
     <Compile Include="Frm_nominas.Designer.cs">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Poliza_Nomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Poliza_Nomina.Designer.cs">
+      <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_preSeleccion.cs">
       <SubType>Form</SubType>
@@ -207,8 +237,17 @@
     <EmbeddedResource Include="Consultas\Frm_consultaCreador.resx">
       <DependentUpon>Frm_consultaCreador.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaCuenta.resx">
+      <DependentUpon>Frm_consultaCuenta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_consultaMedio.resx">
       <DependentUpon>Frm_consultaMedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaMostrarCuenta.resx">
+      <DependentUpon>Frm_consultaMostrarCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultaNomina.resx">
+      <DependentUpon>Frm_consultaNomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consultas\Frm_consultaPerfil.resx">
       <DependentUpon>Frm_consultaPerfil.cs</DependentUpon>
@@ -218,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_capacitaciones.resx">
       <DependentUpon>Frm_capacitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ConceptoEmpleado.resx">
+      <DependentUpon>Frm_ConceptoEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_ControlAsistencias.resx">
       <DependentUpon>Frm_ControlAsistencias.cs</DependentUpon>
@@ -230,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_nominas.resx">
       <DependentUpon>Frm_nominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Poliza_Nomina.resx">
+      <DependentUpon>Frm_Poliza_Nomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_preSeleccion.resx">
       <DependentUpon>Frm_preSeleccion.cs</DependentUpon>
@@ -289,6 +334,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-guardar-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-búsqueda-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-búsqueda-351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-transferencia-de-dinero-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-aprobación-35.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
