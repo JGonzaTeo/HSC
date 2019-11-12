@@ -21,6 +21,25 @@ namespace Recursos_Humanos
         public Frm_ConceptoEmpleado()
         {
             InitializeComponent();
+            label3.Visible = false;
+            label4.Visible = false;
+            label5.Visible = false;
+            label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+
+            label3.Visible = false;
+            Txt_Idconcepto.Visible = false;
+            Txt_Valor.Visible = false;
+            Txt_Naturaleza.Visible = false;
+            Txt_idempleado.Visible = false;
+            Txt_Sueldo.Visible = false;
+            Txt_Total.Visible = false;
+            textBox5.Visible = false;
+                
+
+            
         }
 
         private void CheckBox1_CheckedChanged(object sender, EventArgs e)
@@ -50,7 +69,14 @@ namespace Recursos_Humanos
 
         private void Frm_ConceptoEmpleado_Load(object sender, EventArgs e)
         {
-          
+
+            string scampo1 = logic.obtencionultimo("tbl_conceptos", "KidConcepto");
+            Txt_Idconcepto.Text = scampo1;
+            string scampo2 = logic.obtencionultimo("tbl_conceptos", "valor");
+            Txt_Valor.Text = scampo2;
+            string scampo3 = logic.obtencionultimo("tbl_conceptos", "debe_haber");
+            Txt_Naturaleza.Text = scampo3;
+
             OdbcDataReader mostrarResultado = logic.Consutaempleadonominal();
 
             try
@@ -109,6 +135,21 @@ namespace Recursos_Humanos
                 }
 
             }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

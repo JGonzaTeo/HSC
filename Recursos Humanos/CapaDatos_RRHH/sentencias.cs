@@ -380,7 +380,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cnx.probarConexion();
-                string consultaNominas = "SELECT KidNomina, KidEmpleado_Contable, fecha_de_emision, sueldo_liquido FROM tbl_nominasencabezado WHERE fecha_de_emision BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
+                string consultaNominas = "SELECT KidNomina, KidEmpleado, fecha, totalnominal FROM tbl_nominasencabezado WHERE fecha BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
                 comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
                 OdbcDataReader mostrarNominas = comm.ExecuteReader();
                 return mostrarNominas;
@@ -613,7 +613,53 @@ namespace CapaDatos_RRHH
         }
         /*FIN INSERTAR BANCO*/
         //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
+
+        public string obtenerultimos(string tabla, string campo)// metodo  que obtinene el contenio de una tabla
+        {
+
+
+            String camporesultante = "";
+            try
+            {
+
+                string sql = "SELECT MAX(" + campo + ") FROM " + tabla + ";"; //SELECT MAX(idFuncion) FROM `funciones`     
+                OdbcCommand command = new OdbcCommand(sql, cn.probarConexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                reader.Read();
+                camporesultante = reader.GetValue(0).ToString();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine(camporesultante);
+            }
+            return camporesultante;
+
+        }
+
+
+        public OdbcDataReader Consultadetallenominal()
+        {
+            try
+            {
+                cn.probarConexion();
+                //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "select nombres,salariobase,dias,nombre,total,suma_resta,sueldo_bruto,sueldo_liquido FROM tbl_empcontable INNER JOIN tbl_empleado INNER JOIN tbl_conceptos WHERE tbl_conceptos.KidConcepto=tbl_empcontable.KidConcepto AND tbl_empleado.KidEmpleado=tbl_empcontable.KidEmpleado;";
+                comm = new OdbcCommand(consultaResultados, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
     }
+
+
+
+
 
 
 }

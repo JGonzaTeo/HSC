@@ -40,3 +40,9 @@ C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Re
 C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
 C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
 C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
