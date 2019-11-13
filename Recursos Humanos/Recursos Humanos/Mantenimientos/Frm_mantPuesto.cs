@@ -29,7 +29,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("15");
+            navegador1.asignarAyuda("406");
             navegador1.asignarTabla("tbl_puestos");
           navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
             navegador1.asignarNombreForm("Puestos");
