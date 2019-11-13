@@ -27,9 +27,11 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Rol de pago:", "Año:", "Mes:", "Quincena:", "Fecha de elaboracion:", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("16");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black);
+            navegador1.asignarAyuda("407");
+            //navegador1.asignarReporte("4");
             navegador1.asignarTabla("tbl_roles_de_pago");
             navegador1.asignarNombreForm("Roles de pago");
             scampo = lo.siguiente("tbl_roles_de_pago", "KidRolpago");

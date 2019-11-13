@@ -16,7 +16,7 @@ namespace CapaDeDiseno
     public partial class Ayudas : Form
     {
         logicaNav logic = new logicaNav();
-        OdbcConnection conn = new OdbcConnection("Dsn=HSC");
+        OdbcConnection conn = new OdbcConnection("Dsn=navegador");
         string[] aliasC = new string[40];
 
         public Ayudas()

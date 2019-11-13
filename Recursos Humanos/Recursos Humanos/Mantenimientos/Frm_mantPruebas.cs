@@ -28,9 +28,11 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Codigo Prueba:", "Nombre:", "Descripcion:", "Duracion:" ,"Prerequisito","Estado"};
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("14");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black); 
+            navegador1.asignarAyuda("405");
+            //navegador1.asignarReporte("4");
             navegador1.asignarTabla("tbl_pruebas");
             navegador1.asignarNombreForm("Pruebas");
             ayuda_tp.IsBalloon = true;

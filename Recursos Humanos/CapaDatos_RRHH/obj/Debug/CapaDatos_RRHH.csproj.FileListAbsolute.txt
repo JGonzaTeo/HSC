@@ -10,3 +10,57 @@ C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\Recurso
 C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
 C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
 C:\Users\prueb\Desktop\Analisis De Sistemas II\RRHH\Repositorio Fork\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\Modulo\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Angel Solares\Desktop\Repo Recursos\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\copia\HSC\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\Pruebas POLIZA\Integracion - poliza 10-11\HSC-Ivan-Mogollon\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\UMG\Octavo Semestre\Análisis de Sistemas II\Proyecto Final\12-11 Nomina\HSC-master\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\HSC-Edson-Juarez\Recursos Humanos\CapaDatos_RRHH\obj\Debug\CapaDatos_RRHH.pdb
