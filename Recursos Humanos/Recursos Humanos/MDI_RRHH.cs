@@ -15,6 +15,8 @@ namespace Recursos_Humanos
     public partial class MDI_RRHH : Form
     {
         private int childFormNumber = 0;
+        string AsRuta;
+        string AsIndice;
 
         public MDI_RRHH()
         {
@@ -610,6 +612,26 @@ namespace Recursos_Humanos
             {
                 polizaNomina.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
+        }
+
+        private void AyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "Ayudas RRHH/ayuda_rrhh.chm", "index.html");
+        }
+
+        private void InicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

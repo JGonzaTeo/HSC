@@ -27,11 +27,13 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Codigo Puesto:", "Area:", "Nombre:", "Descripción:","Sueldo:","Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("15");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black);
+            navegador1.asignarAyuda("406");
             navegador1.asignarTabla("tbl_puestos");
-          navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
+            //navegador1.asignarReporte("4");
+            navegador1.asignarComboConTabla("tbl_areas", "nombreArea", 1);
             navegador1.asignarNombreForm("Puestos");
             scampo = lo.siguiente("tbl_puestos", "KidPuesto");
             Txt_Sig.Text = scampo;

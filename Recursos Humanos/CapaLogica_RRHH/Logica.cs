@@ -18,6 +18,12 @@ namespace CapaLogica_RRHH
             string llave = sn.obtenerfinal(tabla, campo);
             return llave;
         }
+
+        public string obtencionultimo(string tabla, string campo)
+        {
+            string llave1 = sn.obtenerultimos(tabla, campo);
+            return llave1;
+        }
         public void nuevoQuery(String query)//trasporta el query de la capa de disenio a Datos
         {
             sn.ejecutarQuery(query);
@@ -175,6 +181,11 @@ namespace CapaLogica_RRHH
             return sn.Consultaempleadosnominal();
         }
 
+        public OdbcDataReader Consultadetallenominal()
+        {
+            return sn.Consultadetallenominal();
+        }
+
 
 
 
@@ -240,5 +251,20 @@ namespace CapaLogica_RRHH
             return sn.InsertarBanco(codCurri);
         }
         /*FIN DE INSERTAR BANCO*/
+
+        //ÁREA DE AYUDAS 
+        public string MIndice(string Indice1)
+        {
+            string indice = sn.modIndice(Indice1);
+
+            return indice;
+        }
+        public string MRuta(string Ruta1)
+        {
+            string ruta = sn.modRuta(Ruta1);
+
+            return ruta;
+        }
+        //FIN DE AYUDAS
     }
 }

@@ -26,9 +26,11 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Cod Curriculum", "Nombre:", "Apellido:", "Numero:", "Direccion:", "Correo:", "Primaria:", "Secundaria:", "Bachillerato", "Estudiante U", "Graduado", "Curso Extra", "Descp. Curso", "Experiencia Previa", "Sueldo Esperado", "Reporte Vacante:", "Estado:" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("19");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black);
+            navegador1.asignarAyuda("408");
+            //navegador1.asignarReporte("4");
             navegador1.asignarTabla("tbl_curriculums");
             navegador1.asignarComboConTabla("tbl_encabezadoreportevacante", "KidReporteVacante", 1);
             navegador1.asignarNombreForm("Curriculum");

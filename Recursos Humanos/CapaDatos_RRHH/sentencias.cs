@@ -39,6 +39,7 @@ namespace CapaDatos_RRHH
             {
                 OdbcCommand consulta = new OdbcCommand(query, cn.probarConexion());
                 consulta.ExecuteNonQuery();
+
             }
             catch (OdbcException ex) { Console.WriteLine(ex.ToString()); }
 
@@ -51,7 +52,7 @@ namespace CapaDatos_RRHH
             {
                 cn.probarConexion();
                 //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
-                string consultaResultados = "SELECT nombre_candidato,apellido_candidato,correoelectronico FROM tbl_bancotalento where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "SELECT c.nombre,c.apellido,c.correo_electronico FROM tbl_bancotalento b inner join tbl_curriculums c on b.KidCurriculum = c.KidCurriculum where c.KidCurriculum = " + cod + ";";
                 comm = new OdbcCommand(consultaResultados, cn.probarConexion());
                 OdbcDataReader mostrarResultados = comm.ExecuteReader();
                 return mostrarResultados;
@@ -69,7 +70,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cn.probarConexion();
-                string consultaGra = "Select p.nombre, r.Resultado From tbl_pruebas p inner join tbl_resultados r on p.KidPruebas = r.KidPruebas inner join tbl_bancotalento on r.KidBancoTalento = " + cod + ";";
+                string consultaGra = "Select p.nombre,r.Resultado From tbl_pruebas p inner join tbl_resultados r on p.KidPruebas = r.KidPruebas inner join tbl_bancotalento b on r.KidBancoTalento = b.KidBancoTalento inner join tbl_curriculums c on c.KidCurriculum = " + cod + ";";
                 ;
                 OdbcDataAdapter dataGrafica = new OdbcDataAdapter(consultaGra, cn.probarConexion());
                 return dataGrafica;
@@ -380,7 +381,7 @@ namespace CapaDatos_RRHH
             try
             {
                 cnx.probarConexion();
-                string consultaNominas = "SELECT KidNomina, KidEmpleado_Contable, fecha_de_emision, sueldo_liquido FROM tbl_nominasencabezado WHERE fecha_de_emision BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
+                string consultaNominas = "SELECT KidNomina, KidEmpleado, fecha, totalnominal FROM tbl_nominasencabezado WHERE fecha BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
                 comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
                 OdbcDataReader mostrarNominas = comm.ExecuteReader();
                 return mostrarNominas;
@@ -613,8 +614,76 @@ namespace CapaDatos_RRHH
         }
         /*FIN INSERTAR BANCO*/
         //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
-    }
 
+        public string obtenerultimos(string tabla, string campo)// metodo  que obtinene el contenio de una tabla
+        {
+
+
+            String camporesultante = "";
+            try
+            {
+
+                string sql = "SELECT MAX(" + campo + ") FROM " + tabla + ";"; //SELECT MAX(idFuncion) FROM `funciones`     
+                OdbcCommand command = new OdbcCommand(sql, cn.probarConexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                reader.Read();
+                camporesultante = reader.GetValue(0).ToString();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine(camporesultante);
+            }
+            return camporesultante;
+
+        }
+
+
+        public OdbcDataReader Consultadetallenominal()
+        {
+            try
+            {
+                cn.probarConexion();
+                //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "select nombres,sueldofijo,dias,tbl_conceptos.nombre,total,suma_resta,sueldo_bruto,sueldo_liquido FROM tbl_empcontable INNER JOIN tbl_empleado INNER JOIN tbl_conceptos INNER JOIN tbl_puestos WHERE tbl_conceptos.KidConcepto=tbl_empcontable.KidConcepto AND tbl_empleado.KidEmpleado=tbl_empcontable.KidEmpleado AND tbl_puestos.KidPuesto=tbl_empleado.KidPuesto ;";
+                comm = new OdbcCommand(consultaResultados, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        //ÁREA PARA LAS AYUDAS
+        public string modRuta(string idindice)// metodo  que obtinene el contenio de una tabla
+        {
+            string indice2 = " ";
+            OdbcCommand command = new OdbcCommand("SELECT * FROM ayuda WHERE id_ayuda = " + idindice + ";", cn.probarConexion());
+            OdbcDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                indice2 = reader.GetValue(1).ToString();
+
+            }
+            return indice2;// devuelve un arrgeglo con los campos
+        }
+        public string modIndice(string idindice)// metodo  que obtinene el contenio de una tabla
+        {
+            string indice = " ";
+            OdbcCommand command = new OdbcCommand("SELECT * FROM ayuda WHERE id_ayuda = " + idindice + ";", cn.probarConexion());
+            OdbcDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                indice = reader.GetValue(2).ToString();
+            }
+
+            return indice;// devuelve un arrgeglo con los campos
+        }
+        //FIN DE AYUDAS
+    }
 
 }
 

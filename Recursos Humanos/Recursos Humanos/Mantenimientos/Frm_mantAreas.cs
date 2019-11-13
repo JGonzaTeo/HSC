@@ -30,10 +30,13 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Cod Area", "Nombre", "Estado" };
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("10");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black);
+            navegador1.asignarAyuda("401");
+            //navegador1.asignarReporte("4");
             navegador1.asignarTabla("tbl_areas");
+            //navegador1.asignarComboConTabla("tbl_tipo_habitacion", "KidTipoHabitacion", 0);
             navegador1.asignarNombreForm("Areas");
             ayuda_tp.IsBalloon = true;
            scampo = lo.siguiente("tbl_areas", "KidArea");

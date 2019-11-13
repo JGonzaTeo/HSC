@@ -30,10 +30,12 @@ namespace Recursos_Humanos.Mantenimientos
             string[] alias = { "Cod Empleado", "Nombres:", "Apellidos:", "DPI:","Nit:","Direccion:","Telefono:","Tel Alte:","Correo:","Corr Alte:","Fecha Nac:","Estado Civil:","Puesto:","Departamento:","Estado:"};
             navegador1.asignarAlias(alias);
             navegador1.asignarSalida(this);
-            navegador1.asignarColorFondo(Color.LightBlue);
-            navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("13");
+            Color rrhh = Color.FromArgb(128, 173, 239);
+            navegador1.asignarColorFondo(rrhh);
+            navegador1.asignarColorFuente(Color.Black);
+            navegador1.asignarAyuda("404");
             navegador1.asignarTabla("tbl_empleado");
+            //navegador1.asignarReporte("4");
             navegador1.asignarComboConTabla("tbl_puestos", "nombre", 1);
             navegador1.asignarComboConTabla("tbl_departamentos", "nombre", 1);
             navegador1.asignarNombreForm("Empleado");

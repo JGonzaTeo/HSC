@@ -97,7 +97,12 @@ namespace Recursos_Humanos.Consultas
 
         private void Txt_nombreEmpleado_KeyUp(object sender, KeyEventArgs e)
         {
-            Funciones.ValidarCampoEntero((TextBox)sender);
+           
+        }
+
+        private void Txt_nombreEmpleado_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
