@@ -44,7 +44,6 @@
             this.curriculumsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.capacitacionesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.resultadosBTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultadosBTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.desempeñoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,13 +51,13 @@
             this.integracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.solicitudDeEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.preToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.polizaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -177,7 +176,6 @@
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nominasToolStripMenuItem,
-            this.capacitacionesToolStripMenuItem1,
             this.resultadosBTToolStripMenuItem,
             this.integracionToolStripMenuItem,
             this.polizaToolStripMenuItem});
@@ -192,13 +190,6 @@
             this.nominasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.nominasToolStripMenuItem.Text = "Nominas";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.NominasToolStripMenuItem_Click);
-            // 
-            // capacitacionesToolStripMenuItem1
-            // 
-            this.capacitacionesToolStripMenuItem1.Name = "capacitacionesToolStripMenuItem1";
-            this.capacitacionesToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.capacitacionesToolStripMenuItem1.Text = "Capacitaciones";
-            this.capacitacionesToolStripMenuItem1.Click += new System.EventHandler(this.CapacitacionesToolStripMenuItem1_Click);
             // 
             // resultadosBTToolStripMenuItem
             // 
@@ -254,6 +245,13 @@
             this.preToolStripMenuItem.Text = "Preseleccion de Empleado";
             this.preToolStripMenuItem.Click += new System.EventHandler(this.PreToolStripMenuItem_Click);
             // 
+            // polizaToolStripMenuItem
+            // 
+            this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
+            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.polizaToolStripMenuItem.Text = "Poliza";
+            this.polizaToolStripMenuItem.Click += new System.EventHandler(this.PolizaToolStripMenuItem_Click);
+            // 
             // reportesToolStripMenuItem
             // 
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
@@ -271,6 +269,7 @@
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.AyudaToolStripMenuItem_Click);
             // 
             // statusStrip
             // 
@@ -290,13 +289,6 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(54, 20);
             this.toolStripStatusLabel.Text = "Estado";
             // 
-            // polizaToolStripMenuItem
-            // 
-            this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
-            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.polizaToolStripMenuItem.Text = "Poliza";
-            this.polizaToolStripMenuItem.Click += new System.EventHandler(this.PolizaToolStripMenuItem_Click);
-            // 
             // MDI_RRHH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -306,7 +298,7 @@
             this.Controls.Add(this.menuStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MDI_RRHH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MDI_RRHH";
@@ -341,7 +333,6 @@
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nominasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem capacitacionesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem resultadosBTToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resultadosBTToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem desempeñoEmpleadoToolStripMenuItem;

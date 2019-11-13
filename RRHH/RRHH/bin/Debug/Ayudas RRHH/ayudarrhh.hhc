@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Modulo Recursos Humanos">
+		<param name="ImageNumber" value="1">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P&aacute;gina Principal">
+			<param name="Local" value="index.html">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="P&oacute;liza">
+			<param name="Local" value="Poliza.html">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Nominas">
+			<param name="Local" value="Nominas.html">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Preselecci&oacute;n de Empleado">
+			<param name="Local" value="PreseleccionEmpleado.html">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Solicitud de Empleado">
+			<param name="Local" value="SolicitudEmpleado.html">
+			<param name="ImageNumber" value="2">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>
