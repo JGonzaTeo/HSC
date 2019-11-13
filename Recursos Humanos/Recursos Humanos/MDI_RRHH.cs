@@ -618,5 +618,20 @@ namespace Recursos_Humanos
         {
             Help.ShowHelp(this, "Ayudas RRHH/ayuda_rrhh.chm", "index.html");
         }
+
+        private void InicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
