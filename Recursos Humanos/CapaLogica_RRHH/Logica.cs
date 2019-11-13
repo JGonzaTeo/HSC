@@ -18,6 +18,12 @@ namespace CapaLogica_RRHH
             string llave = sn.obtenerfinal(tabla, campo);
             return llave;
         }
+
+        public string obtencionultimo(string tabla, string campo)
+        {
+            string llave1 = sn.obtenerultimos(tabla, campo);
+            return llave1;
+        }
         public void nuevoQuery(String query)//trasporta el query de la capa de disenio a Datos
         {
             sn.ejecutarQuery(query);
@@ -123,8 +129,62 @@ namespace CapaLogica_RRHH
             return sn.InsertarReporDetalle(cod, primaria,secundaria, bachi, eU, gU, cE, dC, sueldo);
         }
         /*FIN INSERT*/
+        //   ***LOGICA PARA EL ÁREA DE PÓLIZAS***
+        public OdbcDataReader ConsultaLogicaNominas(string dias)
+        {
+            return sn.ConsultaNomina(dias);
+        }
+
+        public OdbcDataReader ConsultaLogicaCuentasFiltro(string nombreCuenta)
+        {
+            return sn.ConsultaCuentaFiltro(nombreCuenta);
+        }
+
+        public OdbcDataReader ConsultaLogicaCuentas()
+        {
+            return sn.ConsultaCuenta();
+        }
+
+        public DataTable ConsultaLogicaTipoPoliza()
+        {
+            OdbcDataAdapter dtaTipoPoliza = sn.ConsultaTipoPoliza();
+            DataTable tableTipoPoliza = new DataTable();
+            dtaTipoPoliza.Fill(tableTipoPoliza);
+            return tableTipoPoliza;
+        }
+
+        public OdbcCommand LogicaInsertarEncabezadoPoliza(string tipoPoliza, string docAsociado, string descripcion, string total)
+        {
+            return sn.InsertarEncabezadoPoliza(tipoPoliza, docAsociado, descripcion, total);
+        }
+
+        public OdbcCommand LogicaInsertarDetallePoliza(string idPoliza, string idCuenta, string debe, string haber)
+        {
+            return sn.InsertarDetallePoliza(idPoliza, idCuenta, debe, haber); ;
+        }
+
+        public OdbcDataReader ConsultaLogicaIdPoliza()
+        {
+            return sn.ConsultaIdPoliza();
+        }
+
+        public OdbcCommand LogicaActualizarNomina(string idNomina)
+        {
+            return sn.ActualizarEstadoNomina(idNomina);
+        }
+
+        //   ***FIN DE LOGICA PARA EL ÁREA DE PÓLIZAS***
 
 
+        public OdbcDataReader Consutaempleadonominal()
+        {
+            return sn.Consultaempleadosnominal();
+        }
+
+        public OdbcDataReader Consultadetallenominal()
+        {
+            return sn.Consultadetallenominal();
+        }
 
 
 

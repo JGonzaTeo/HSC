@@ -4,6 +4,7 @@ using System.Data.Odbc;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
 
 namespace CapaDatos_RRHH
 {
@@ -38,6 +39,7 @@ namespace CapaDatos_RRHH
             {
                 OdbcCommand consulta = new OdbcCommand(query, cn.probarConexion());
                 consulta.ExecuteNonQuery();
+
             }
             catch (OdbcException ex) { Console.WriteLine(ex.ToString()); }
 
@@ -371,159 +373,172 @@ namespace CapaDatos_RRHH
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        Conexion cnx = new Conexion();
+
+        //   ***SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+        public OdbcDataReader ConsultaNomina(string dias)
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaNominas = "SELECT KidNomina, KidEmpleado, fecha, totalnominal FROM tbl_nominasencabezado WHERE fecha BETWEEN DATE_SUB(CURDATE(), INTERVAL " + dias + " DAY) AND CURDATE() AND estado = 1;";
+                comm = new OdbcCommand(consultaNominas, cnx.probarConexion());
+                OdbcDataReader mostrarNominas = comm.ExecuteReader();
+                return mostrarNominas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaCuentaFiltro(string nombreCuenta)
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaCuentas = "SELECT * FROM tbl_cuentas WHERE nombre LIKE ('%" + nombreCuenta + "%') AND estado = 1;";
+                comm = new OdbcCommand(consultaCuentas, cnx.probarConexion());
+                OdbcDataReader mostrarCuentas = comm.ExecuteReader();
+                return mostrarCuentas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaCuenta()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaCuentas = "SELECT * FROM tbl_cuentas WHERE estado = 1;";
+                comm = new OdbcCommand(consultaCuentas, cnx.probarConexion());
+                OdbcDataReader mostrarCuentas = comm.ExecuteReader();
+                return mostrarCuentas;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataAdapter ConsultaTipoPoliza()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaTipoPolizas = "SELECT KidTipoDePoliza FROM tbl_tipo_poliza WHERE estado = 1";
+                OdbcDataAdapter dataTipoPoliza = new OdbcDataAdapter(consultaTipoPolizas, cnx.probarConexion());
+                return dataTipoPoliza;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcCommand InsertarEncabezadoPoliza(string tipoPoliza, string docAsociado, string descripcion, string total)
+        {
+            try
+            {
+                OdbcCommand comm = new OdbcCommand("{call procedimientoInsertarEncabezadoPoliza(?,?,?,?)}", cnx.probarConexion());
+                comm.CommandType = CommandType.StoredProcedure;
+                comm.Parameters.Add("idTipoPoliza", OdbcType.Text).Value = tipoPoliza;
+                comm.Parameters.Add("idDocAsociado", OdbcType.Text).Value = docAsociado;
+                comm.Parameters.Add("descripcion", OdbcType.Text).Value = descripcion;
+                comm.Parameters.Add("total", OdbcType.Text).Value = total;
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcCommand InsertarDetallePoliza(string idPoliza, string idCuenta, string debe, string haber)
+        {
+            try
+            {
+                OdbcCommand comm = new OdbcCommand("{call procedimientoInsertarDetallePoliza(?,?,?,?)}", cnx.probarConexion());
+                comm.CommandType = CommandType.StoredProcedure;
+                comm.Parameters.Add("idPoliza", OdbcType.Text).Value = idPoliza;
+                comm.Parameters.Add("idCuenta", OdbcType.Text).Value = idCuenta;
+                comm.Parameters.Add("debe", OdbcType.Text).Value = debe;
+                comm.Parameters.Add("haber", OdbcType.Text).Value = haber;
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcDataReader ConsultaIdPoliza()
+        {
+            try
+            {
+                cnx.probarConexion();
+                string consultaPoliza = "SELECT MAX(KidPoliza) FROM tbl_poliza_encabezado";
+                comm = new OdbcCommand(consultaPoliza, cnx.probarConexion());
+                OdbcDataReader mostrarIdPoliza = comm.ExecuteReader();
+                return mostrarIdPoliza;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        public OdbcCommand ActualizarEstadoNomina(string idNomina)
+        {
+            try
+            {
+                string consultaActualizarNomina = "UPDATE tbl_nominasencabezado SET estado = 0 WHERE KidNomina = " + idNomina + ";";
+                OdbcCommand comm = new OdbcCommand(consultaActualizarNomina, cnx.probarConexion());
+                comm.ExecuteNonQuery();
+                return comm;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+        }
+
+        //   ***FIN DE SENTENCIAS PARA EL ÁREA DE PÓLIZAS***
+
+
+         //inicio nominal
+        public OdbcDataReader Consultaempleadosnominal()
+        {
+            try
+            {
+                cn.probarConexion();
+                //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "SELECT DISTINCTROW KidEmpleado,sueldofijo,tbl_puestos.nombre,tbl_areas.nombreArea FROM tbl_departamentos INNER JOIN tbl_empleado INNER JOIN tbl_areas INNER JOIN tbl_puestos WHERE tbl_puestos.KidPuesto=tbl_empleado.KidPuesto  AND tbl_puestos.KidArea = tbl_areas.KidArea;";
+                comm = new OdbcCommand(consultaResultados, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
 
 
 
@@ -599,6 +614,54 @@ namespace CapaDatos_RRHH
         }
         /*FIN INSERTAR BANCO*/
         //   ***FIN DE SENTENCIAS PARA EL ÁREA DE INTEGRACION***
+
+        public string obtenerultimos(string tabla, string campo)// metodo  que obtinene el contenio de una tabla
+        {
+
+
+            String camporesultante = "";
+            try
+            {
+
+                string sql = "SELECT MAX(" + campo + ") FROM " + tabla + ";"; //SELECT MAX(idFuncion) FROM `funciones`     
+                OdbcCommand command = new OdbcCommand(sql, cn.probarConexion());
+                OdbcDataReader reader = command.ExecuteReader();
+                reader.Read();
+                camporesultante = reader.GetValue(0).ToString();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine(camporesultante);
+            }
+            return camporesultante;
+
+        }
+
+
+        public OdbcDataReader Consultadetallenominal()
+        {
+            try
+            {
+                cn.probarConexion();
+                //string consultaResultados = "SELECT KidPruebas,Resultado FROM tbl_resultados where KidBancoTalento = " + cod + ";";
+                string consultaResultados = "select nombres,salariobase,dias,nombre,total,suma_resta,sueldo_bruto,sueldo_liquido FROM tbl_empcontable INNER JOIN tbl_empleado INNER JOIN tbl_conceptos WHERE tbl_conceptos.KidConcepto=tbl_empcontable.KidConcepto AND tbl_empleado.KidEmpleado=tbl_empcontable.KidEmpleado;";
+                comm = new OdbcCommand(consultaResultados, cn.probarConexion());
+                OdbcDataReader mostrarResultados = comm.ExecuteReader();
+                return mostrarResultados;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
     }
+
+
+
+
+
+
 }
 

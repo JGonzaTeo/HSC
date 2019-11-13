@@ -208,3 +208,135 @@ C:\Users\Usuario\Desktop\copia\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileIn
 C:\Users\Usuario\Desktop\copia\HSC\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
 C:\Users\Usuario\Desktop\copia\HSC\RRHH\RRHH\obj\Debug\RRHH.exe
 C:\Users\Usuario\Desktop\copia\HSC\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\Edson Juarez\Desktop\P I\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\HSC-Edson-Juarez\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\prueb\Desktop\Modulo de recursos humanos produccion\Funcioal al 70%\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.exe.config
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.exe
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\Recursos Humanos.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDiseno.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDiseno.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeLogica.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\ConsultasInteligentes.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDatos.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.dll
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\Recursos Humanos.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDiseno.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_RRHH.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeLogica.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\ConsultasInteligentes.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDeDatos.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaLogica_Consultas.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\bin\Debug\CapaDatos_Consultas.pdb
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.Form1.resources
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.Properties.Resources.resources
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.csproj.CopyComplete
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.exe
+C:\Users\Usuario\Desktop\HSC-Prototipo-Funcional-70-\RRHH\RRHH\obj\Debug\RRHH.pdb
