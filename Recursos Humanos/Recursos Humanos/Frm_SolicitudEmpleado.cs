@@ -154,6 +154,7 @@ namespace Recursos_Humanos
                 btn_buscarMedio.Enabled = false;
                 btn_buscarPerfil.Enabled = false;
                 scampo = logic.siguiente("tbl_encabezadoreportevacante", "KidReporteVacante");
+                lbl_siguiente.Text = "";
                 lbl_siguiente.Text = "Numero de reporte: " + scampo;
                 Console.WriteLine(logic.siguiente("tbl_encabezadoreportevacante", "KidReporteVacante"));
 
@@ -174,6 +175,12 @@ namespace Recursos_Humanos
             btn_buscarMedio.Enabled = false;
             btn_buscarPerfil.Enabled = false;
             scampo = logic.siguiente("tbl_encabezadoreportevacante", "KidReporteVacante");
+            if (string.IsNullOrEmpty(scampo))
+            {
+                scampo += "";
+                scampo += 1;
+            }
+            Console.WriteLine("Contenido de scampo: " + scampo);
             lbl_siguiente.Text = "Numero de reporte: "+scampo;
             Console.WriteLine(logic.siguiente("tbl_encabezadoreportevacante", "KidReporteVacante"));
         }

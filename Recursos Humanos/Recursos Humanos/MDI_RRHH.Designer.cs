@@ -58,6 +58,8 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.cerrarSesiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -81,9 +83,13 @@
             // 
             // inicioToolStripMenuItem
             // 
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cerrarSesiónToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
             this.inicioToolStripMenuItem.Text = "Inicio";
+            this.inicioToolStripMenuItem.Click += new System.EventHandler(this.InicioToolStripMenuItem_Click);
             // 
             // mantenimientosToolStripMenuItem
             // 
@@ -187,7 +193,7 @@
             // nominasToolStripMenuItem
             // 
             this.nominasToolStripMenuItem.Name = "nominasToolStripMenuItem";
-            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.nominasToolStripMenuItem.Text = "Nominas";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.NominasToolStripMenuItem_Click);
             // 
@@ -198,7 +204,7 @@
             this.desempeñoEmpleadoToolStripMenuItem,
             this.controlDeAsistenciasToolStripMenuItem});
             this.resultadosBTToolStripMenuItem.Name = "resultadosBTToolStripMenuItem";
-            this.resultadosBTToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.resultadosBTToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.resultadosBTToolStripMenuItem.Text = "Estadisticas";
             // 
             // resultadosBTToolStripMenuItem1
@@ -228,7 +234,7 @@
             this.solicitudDeEmpleadoToolStripMenuItem,
             this.preToolStripMenuItem});
             this.integracionToolStripMenuItem.Name = "integracionToolStripMenuItem";
-            this.integracionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.integracionToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.integracionToolStripMenuItem.Text = "Integracion";
             // 
             // solicitudDeEmpleadoToolStripMenuItem
@@ -248,7 +254,7 @@
             // polizaToolStripMenuItem
             // 
             this.polizaToolStripMenuItem.Name = "polizaToolStripMenuItem";
-            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.polizaToolStripMenuItem.Size = new System.Drawing.Size(168, 26);
             this.polizaToolStripMenuItem.Text = "Poliza";
             this.polizaToolStripMenuItem.Click += new System.EventHandler(this.PolizaToolStripMenuItem_Click);
             // 
@@ -288,6 +294,20 @@
             this.toolStripStatusLabel.Name = "toolStripStatusLabel";
             this.toolStripStatusLabel.Size = new System.Drawing.Size(54, 20);
             this.toolStripStatusLabel.Text = "Estado";
+            // 
+            // cerrarSesiónToolStripMenuItem
+            // 
+            this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.CerrarSesiónToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.SalirToolStripMenuItem_Click);
             // 
             // MDI_RRHH
             // 
@@ -344,6 +364,8 @@
         private System.Windows.Forms.ToolStripMenuItem curriculumsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem preToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem polizaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
 
