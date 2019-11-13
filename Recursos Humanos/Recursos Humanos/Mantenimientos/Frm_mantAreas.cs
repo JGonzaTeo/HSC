@@ -32,7 +32,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("10");
+            navegador1.asignarAyuda("401");
             navegador1.asignarTabla("tbl_areas");
             navegador1.asignarNombreForm("Areas");
             ayuda_tp.IsBalloon = true;

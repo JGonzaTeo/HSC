@@ -28,7 +28,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("18");
+            navegador1.asignarAyuda("410");
             navegador1.asignarTabla("tbl_perfil_profesional");
             navegador1.asignarNombreForm("Perfil Profesional");
             ayuda_tp.IsBalloon = true;

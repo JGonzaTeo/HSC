@@ -29,7 +29,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("16");
+            navegador1.asignarAyuda("407");
             navegador1.asignarTabla("tbl_roles_de_pago");
             navegador1.asignarNombreForm("Roles de pago");
             scampo = lo.siguiente("tbl_roles_de_pago", "KidRolpago");

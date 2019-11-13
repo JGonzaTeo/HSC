@@ -28,7 +28,7 @@ namespace Recursos_Humanos.Mantenimientos
             navegador1.asignarSalida(this);
             navegador1.asignarColorFondo(Color.LightBlue);
             navegador1.asignarColorFuente(Color.BlueViolet);
-            navegador1.asignarAyuda("19");
+            navegador1.asignarAyuda("408");
             navegador1.asignarTabla("tbl_curriculums");
             navegador1.asignarComboConTabla("tbl_encabezadoreportevacante", "KidReporteVacante", 1);
             navegador1.asignarNombreForm("Curriculum");
